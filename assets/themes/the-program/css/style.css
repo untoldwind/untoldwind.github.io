@@ -540,6 +540,143 @@ No styleguide reference.
 .list-linear li:last-child {
   margin-right: 0;
 }
+span.state-unknown {
+  padding: 0px 10px 0px 10px;
+  margin: 1px 1px 1px 1px;
+  width: 100px;
+  display: inline-block;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border-top: solid 1px #cbcbcb;
+  border-left: solid 1px #b7b7b7;
+  border-right: solid 1px #b7b7b7;
+  border-bottom: solid 1px #b3b3b3;
+  color: #303030;
+  background: #fdfd00;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #fdfd00 0%, #f2f200 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fdfd00), color-stop(100%, #f2f200));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #fdfd00 0%, #f2f200 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #fdfd00 0%, #f2f200 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #fdfd00 0%, #f2f200 100%);
+  /* IE10+ */
+
+  background: linear-gradient(top, #fdfd00 0%, #f2f200 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  /* IE6-9 */
+
+  -webkit-box-shadow: 10px 10px 5px #888;
+  -moz-box-shadow: 10px 10px 5px #888;
+  box-shadow: 0px 1px 5px #e8e8e8;
+}
+span.state-ignore {
+  padding: 0px 10px 0px 10px;
+  margin: 1px 1px 1px 1px;
+  width: 100px;
+  display: inline-block;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border-top: solid 1px #cbcbcb;
+  border-left: solid 1px #b7b7b7;
+  border-right: solid 1px #b7b7b7;
+  border-bottom: solid 1px #b3b3b3;
+  color: #303030;
+  background: #fdfdfd;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #fdfdfd 0%, #f2f2f2 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fdfdfd), color-stop(100%, #f2f2f2));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #fdfdfd 0%, #f2f2f2 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #fdfdfd 0%, #f2f2f2 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #fdfdfd 0%, #f2f2f2 100%);
+  /* IE10+ */
+
+  background: linear-gradient(top, #fdfdfd 0%, #f2f2f2 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  /* IE6-9 */
+
+  -webkit-box-shadow: 10px 10px 5px #888;
+  -moz-box-shadow: 10px 10px 5px #888;
+  box-shadow: 0px 1px 5px #e8e8e8;
+}
+span.state-ok {
+  padding: 0px 10px 0px 10px;
+  margin: 1px 1px 1px 1px;
+  width: 100px;
+  display: inline-block;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border-top: solid 1px #cbcbcb;
+  border-left: solid 1px #b7b7b7;
+  border-right: solid 1px #b7b7b7;
+  border-bottom: solid 1px #b3b3b3;
+  color: #303030;
+  background: #00fd00;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #00fd00 0%, #00f200 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00fd00), color-stop(100%, #00f200));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #00fd00 0%, #00f200 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #00fd00 0%, #00f200 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #00fd00 0%, #00f200 100%);
+  /* IE10+ */
+
+  background: linear-gradient(top, #00fd00 0%, #00f200 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=0);
+  /* IE6-9 */
+
+  -webkit-box-shadow: 10px 10px 5px #888;
+  -moz-box-shadow: 10px 10px 5px #888;
+  box-shadow: 0px 1px 5px #e8e8e8;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  border: dotted 1px #bbbbbb;
+  vertical-align: center;
+  padding: 2px;
+}
+th {
+  background-color: #073642;
+  color: #ffffff;
+  padding: 3px 10px 3px 10px;
+  border: 2px solid #ffffff;
+}
 /* LESS VARIABLES
 --------------------------------------------------------------------------------- */
 /* GLOBAL
@@ -727,7 +864,6 @@ pre {
 }
 .unit-article img {
   display: block;
-  margin-left: auto;
   margin-left: auto;
 }
 .unit-article img.left {
@@ -978,7 +1114,6 @@ pre {
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     border-right: none 0;
     display: block;
-    width: 100%;
   }
   .the-header .unit-head .nav-global .logo a {
     font-size: 30px;

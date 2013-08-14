@@ -13,7 +13,6 @@ What do you expect as result of the following PHP script?
 
 {% highlight php %}
 <?php
-
 $a = 10;
 echo "First: $a\n";
 
@@ -48,7 +47,6 @@ Lets say you fool around with `eval()` ... ok, most certainly you you should not
 
 {% highlight php %}
 <?php
-
 $a = 10;
 echo "First: $a\n";
 

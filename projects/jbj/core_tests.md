@@ -1,11 +1,10 @@
 ---
 layout: page
-title: jbj Test
-tagline: Core tests
-category: jbj
-githubUrl: https://github.com/untoldwind/jbj
+title: "jbj - Tests"
+subtitle: Core tests
+root: .
 ---
-{% include JB/setup %}
+{% include root %}
 
 # Core tests
 

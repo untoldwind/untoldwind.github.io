@@ -15,7 +15,6 @@ Lets take a look what happens if you innocently use umlauts:
 
 {% highlight php %}
 <?php
-
 $a = "äöü";
 
 echo strlen($a) . '\n';
