@@ -618,7 +618,7 @@ Package: de.leanovate.jbj.tests.lang.operators
 | lang/operators/add_variationStr.phpt | <span class="state-ok">OK</span> | AddSpec |
 | lang/operators/bitwiseAnd_basiclong_64bit.phpt | <span class="state-ok">OK</span> | BitAndSpec |
 | lang/operators/bitwiseAnd_variationStr.phpt | <span class="state-ok">OK</span> | BitAndSpec |
-| lang/operators/bitwiseNot_basiclong_64bit.phpt | <<span class="state-ok">OK</span> | BitNotSpec |
+| lang/operators/bitwiseNot_basiclong_64bit.phpt | <span class="state-ok">OK</span> | BitNotSpec |
 | lang/operators/bitwiseNot_variationStr.phpt | <span class="state-ok">OK</span> | BitNotSpec |
 | lang/operators/bitwiseOr_basiclong_64bit.phpt | <span class="state-ok">OK</span> | BitOrSpec |
 | lang/operators/bitwiseOr_variationStr.phpt | <span class="state-ok">OK</span> | BitOrSpec |
