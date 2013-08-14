@@ -16,4 +16,6 @@ tagline: github projects
 # Projects of interest
 
 * [jbj]({{ BASE_PATH }}projects/jbj.html)
+* [durchlauf]({{ BASE_PATH }}projects/durchlauf.html)
+
 
