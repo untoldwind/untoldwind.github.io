@@ -3,7 +3,7 @@ layout: page
 title: jbj Test
 tagline: Core tests
 category: jbj
-githubUrl: http://github.com/untoldwind/jbj
+githubUrl: https://github.com/untoldwind/jbj
 ---
 {% include JB/setup %}
 

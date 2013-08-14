@@ -4,7 +4,7 @@ title: jbj project
 tagline: PHP in Java
 group: navigation
 category: jbj
-githubUrl: http://github.com/untoldwind/jbj
+githubUrl: https://github.com/untoldwind/jbj
 ---
 {% include JB/setup %}
 
