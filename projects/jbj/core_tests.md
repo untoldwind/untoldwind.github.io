@@ -618,8 +618,8 @@ Package: de.leanovate.jbj.tests.lang.operators
 | lang/operators/add_variationStr.phpt | <span class="state-ok">OK</span> | AddSpec |
 | lang/operators/bitwiseAnd_basiclong_64bit.phpt | <span class="state-ok">OK</span> | BitAndSpec |
 | lang/operators/bitwiseAnd_variationStr.phpt | <span class="state-ok">OK</span> | BitAndSpec |
-| lang/operators/bitwiseNot_basiclong_64bit.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/operators/bitwiseNot_variationStr.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/operators/bitwiseNot_basiclong_64bit.phpt | <<span class="state-ok">OK</span> | BitNotSpec |
+| lang/operators/bitwiseNot_variationStr.phpt | <span class="state-ok">OK</span> | BitNotSpec |
 | lang/operators/bitwiseOr_basiclong_64bit.phpt | <span class="state-ok">OK</span> | BitOrSpec |
 | lang/operators/bitwiseOr_variationStr.phpt | <span class="state-ok">OK</span> | BitOrSpec |
 | lang/operators/bitwiseShiftLeft_basiclong_64bit.phpt | <span class="state-unknown">Unknown</span> | |
@@ -667,10 +667,10 @@ Package: de.leanovate.jbj.tests.lang.operators
 | lang/operators/postinc_variationStr.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/operators/predec_basiclong_64bit.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/operators/predec_variationStr.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/operators/preinc_basiclong_64bit.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/operators/preinc_basiclong_64bit.phpt | <span class="state-ok">OK</span> | PreIncrSpec |
 | lang/operators/preinc_variationStr.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/operators/subtract_basiclong_64bit.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/operators/subtract_variationStr.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/operators/subtract_basiclong_64bit.phpt | <span class="state-ok">OK</span> | SubSpec |
+| lang/operators/subtract_variationStr.phpt | <span class="state-ok">OK</span> | SubSpec |
 
 ## Output
 
