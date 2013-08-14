@@ -147,9 +147,9 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/autoload_018.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/autoload_019.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/autoload_020.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/bug23951.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/bug24399.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/bug24445.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/bug23951.phpt | <span class="state-ok">OK</span> | BugSpec |
+| classes/bug24399.phpt | <span class="state-ok">OK</span> | BugSpec |
+| classes/bug24445.phpt | <span class="state-ok">OK</span> | BugSpec |
 | classes/bug26737.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/bug27468.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/bug27504.phpt | <span class="state-unknown">Unknown</span> | |
@@ -159,10 +159,10 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/class_example.phpt | <span class="state-ok">OK</span> | ClassExampleSpec |
 | classes/class_final.phpt | <span class="state-ok">OK</span> | ClassExampleSpec |
 | classes/class_stdclass.phpt | <span class="state-ok">OK</span> | ClassExampleSpec |
-| classes/clone_001.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/clone_002.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/clone_001.phpt | <span class="state-ok">OK</span> | CloneSpec |
+| classes/clone_002.phpt | <span class="state-ok">OK</span> | CloneSpec |
 | classes/clone_003.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/clone_004.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/clone_004.phpt | <span class="state-ok">OK</span> | CloneSpec |
 | classes/clone_005.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/clone_006.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/constants_basic_001.phpt | <span class="state-unknown">Unknown</span> | |
