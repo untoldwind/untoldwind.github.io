@@ -5,7 +5,6 @@ date:   2013-08-12 13:46:07
 tags: WFT
 category: jbj
 ---
-{% include root %}
 
 For those of you who wonder why there is a `de.leanovate.jbj.ast.StaticInitializer` trait with a rather crazy logic, here is a little story.
 

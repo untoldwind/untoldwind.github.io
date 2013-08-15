@@ -413,8 +413,8 @@ Package: de.leanovate.jbj.tests.lang
 | lang/020.phpt | <span class="state-ok">OK</span> | Lang3Spec |
 | lang/021.phpt | <span class="state-ok">OK</span> | Lang3Spec |
 | lang/022.phpt | <span class="state-ok">OK</span> | Lang3Spec |
-| lang/023.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/024.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/023.phpt | <span class="state-ok">OK</span> | Lang3Spec |
+| lang/024.phpt | <span class="state-ok">OK</span> | Lang3Spec |
 | lang/025.phpt | <span class="state-ok">OK</span> | Lang3Spec |
 | lang/026.phpt | <span class="state-ok">OK</span> | Lang3Spec |
 | lang/027.phpt | <span class="state-ok">OK</span> | Lang3Spec |
