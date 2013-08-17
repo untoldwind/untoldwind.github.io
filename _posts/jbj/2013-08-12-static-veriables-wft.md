@@ -40,7 +40,7 @@ Fourth: 40
 
 WTF!
 
-Ok, maybe I do PHP a little injustice as there - some long time ago - might have been a legitimate reasoning of this behavious. The worse par though is that this is not consistent with itself.
+Ok, maybe I do PHP a little injustice as there - some long time ago - might have been a legitimate reasoning of this behavior. The worse par though is that this is not consistent with itself.
 
 Lets say you fool around with `eval()` ... ok, most certainly you you should not, just assume for a moment you do anyway:
 
@@ -74,6 +74,6 @@ Fifth: 5
 Final: 40
 ~~~
  
- Something similiar can be produced using `include` or `require`.
+Something similar can be produced using `include` or `require`.
 
  So my initial assessment will remain unchanged: WTF!

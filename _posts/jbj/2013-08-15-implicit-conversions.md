@@ -6,7 +6,7 @@ tags: WFT
 category: jbj
 ---
 
-Lets talk about implicit conversions for a moment. Again, this might be an old hat for seasoned PHP developers, but I realy had some "fun" reimplementing this.
+Lets talk about implicit conversions for a moment. Again, this might be an old hat for seasoned PHP developers, but I really had some "fun" reimplementing this.
 
 # Conversions
 

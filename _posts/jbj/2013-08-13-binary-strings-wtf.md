@@ -6,11 +6,11 @@ tags: WFT
 category: jbj
 ---
 
-This is probably an old hat for PHP veterans, but little me was kind of suprised by this.
+This is probably an old hat for PHP veterans, but little me was kind of surprised by this.
 After 15 years of Java related development I probably became somewhat detached to the roots: 
 Once upon a time there were no strings, just bytes.
 
-It seems that PHP - maybe due to some kind of misplaced nostalgia - still wants to honour these good old times.
+It seems that PHP - maybe due to some kind of misplaced nostalgia - still wants to honor these good old times.
 Lets take a look what happens if you innocently use umlauts:
 
 {% highlight php %}
