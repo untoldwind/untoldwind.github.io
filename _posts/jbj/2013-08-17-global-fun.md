@@ -20,10 +20,10 @@ var_dump($b);
 {% endhighlight %}
 which results in
 
-```
+~~~
 string(9) "This is a"
 string(9) "This is b"
-```
+~~~
 
 So far so good. Now here's the fun part `$GLOBALS`, being a global variable, contains itself. Well, at least this is quite consequent, though it offers the posibility to do something like this:
 {% highlight php %}
@@ -38,11 +38,11 @@ var_dump($c);
 {% endhighlight %}
 and of course you get
 
-```
+~~~
 string(9) "This is a"
 string(9) "This is b"
 string(9) "This is c"
-```
+~~~
 
 Also - with the help of references - you can redefine `$GLOBALS` to anything you like. Lets mess with this a bit more seriously:
 
@@ -57,7 +57,7 @@ var_dump($b);
 var_dump($c);
 ?>
 {% endhighlight %}
-and you have the same as above. I do not even want to imagine what else you could do with this.
+just has the same result as above. I do not even want to imagine what else you could do with this.
 
 Instead I just want to conclude, by correcting myself: `$GLOBALS` is not only a "global" variable, actually it is a "superglobal" variable, which essentially means that it is implicitly available in any scope without declaration.
 
