@@ -58,7 +58,7 @@ echo "6: "; var_dump("123" == "   123.0000000abcdef   ");
 
 Wut?
 
-Ok, so strings are compared like strings should be - unless they can be converted to a number, though with stricter rules than before. It seems that in this case strings are only treated as numbers if they actually conform to a regular number pattern. Err ... so the `==` operator is commutative but not associative? Allow PHP answer this question itself:
+Ok, so strings are compared like strings should be - unless they can be converted to a number, though with stricter rules than before. It seems that in this case strings are only treated as numbers if they actually conform to a regular number pattern. Err ... so the `==` operator is commutative but not transitive? Allow PHP answer this question itself:
 
 {% highlight php %}
 <?php
