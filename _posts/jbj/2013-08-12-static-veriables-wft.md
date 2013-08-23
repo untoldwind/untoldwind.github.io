@@ -2,7 +2,7 @@
 layout: post
 title:  "Static variables"
 date:   2013-08-12 13:46:07
-tags: WFT
+tags: [jbj, WFT]
 category: jbj
 ---
 

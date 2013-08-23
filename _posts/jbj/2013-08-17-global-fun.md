@@ -2,7 +2,7 @@
 layout: post
 title:  "Global fun"
 date:   2013-08-17 13:46:07
-tags: Fun
+tags: [jbj, Fun]
 category: jbj
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Binary strings"
 date:   2013-08-13 13:46:07
-tags: WFT
+tags: [jbj, WFT]
 category: jbj
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "The miraculous world of comparison"
 date:   2013-08-19 13:46:07
-tags: WFT
+tags: [jbj, WFT]
 category: jbj
 ---
 

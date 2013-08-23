@@ -2,7 +2,7 @@
 layout: post
 title:  "Implicit conversions"
 date:   2013-08-15 13:46:07
-tags: WFT
+tags: [jbj, WFT]
 category: jbj
 ---
 
