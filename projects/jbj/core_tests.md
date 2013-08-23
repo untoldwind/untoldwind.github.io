@@ -420,7 +420,7 @@ Package: de.leanovate.jbj.tests.lang
 | lang/027.phpt | <span class="state-ok">OK</span> | Lang3Spec |
 | lang/028.phpt | <span class="state-ok">OK</span> | Lang3Spec |
 | lang/030.phpt | <span class="state-ok">OK</span> | Lang4Spec |
-| lang/031.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/031.phpt | <span class="state-ok">OK</span> | Lang4Spec |
 | lang/032.phpt | <span class="state-ok">OK</span> | Lang4Spec |
 | lang/033.phpt | <span class="state-ok">OK</span> | Lang4Spec |
 | lang/034.phpt | <span class="state-unknown">Unknown</span> | |
@@ -521,9 +521,9 @@ Package: de.leanovate.jbj.tests.lang
 | lang/engine_assignExecutionOrder_004.phpt | <span class="state-ok">OK</span> | EngineAssignExecOrderSpec |
 | lang/engine_assignExecutionOrder_005.phpt | <span class="state-ok">OK</span> | EngineAssignExecOrderSpec |
 | lang/engine_assignExecutionOrder_006.phpt | <span class="state-ok">OK</span> | EngineAssignExecOrderSpec |
-| lang/engine_assignExecutionOrder_007.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/engine_assignExecutionOrder_008.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/engine_assignExecutionOrder_009.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/engine_assignExecutionOrder_007.phpt | <span class="state-ok">OK</span> | EngineAssignExecOrderSpec |
+| lang/engine_assignExecutionOrder_008.phpt | <span class="state-ok">OK</span> | EngineAssignExecOrderSpec |
+| lang/engine_assignExecutionOrder_009.phpt | <span class="state-ok">OK</span> | EngineAssignExecOrderSpec |
 | lang/error_2_exception_001.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/execution_order.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/foreach_with_object_001.phpt | <span class="state-ok">OK</span> | ForeachSpec |
@@ -600,7 +600,7 @@ Package: de.leanovate.jbj.tests.lang
 | lang/static_basic_001.phpt | <span class="state-ok">OK</span> | StaticSpec |
 | lang/static_basic_002.phpt | <span class="state-ok">OK</span> | StaticSpec |
 | lang/static_variation_001.phpt | <span class="state-ok">OK</span> | StaticSpec |
-| lang/static_variation_002.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/static_variation_002.phpt | <span class="state-ok">OK</span> | StaticSpec |
 | lang/string_decimals_001.phpt | <span class="state-ok">OK</span> | StringDecimalsSpec |
 | lang/this_assignment.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/throw_variation_001.phpt | <span class="state-unknown">Unknown</span> | |
