@@ -815,10 +815,10 @@ pre {
   padding-left: 0;
 }
 .unit-article ul {
-  list-style: square;
+  list-style: square inside none;
 }
 .unit-article ol {
-  list-style: decimal;
+  list-style: decimal inside none;
 }
 .unit-article li h1,
 .unit-article dt h1,

@@ -425,7 +425,7 @@ Package: de.leanovate.jbj.tests.lang
 | lang/033.phpt | <span class="state-ok">OK</span> | Lang4Spec |
 | lang/034.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/035.phpt | <span class="state-ok">OK</span> | Lang4Spec |
-| lang/036.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/036.phpt | <span class="state-ok">OK</span> | Lang4Spec |
 | lang/037.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/038.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/039.phpt | <span class="state-unknown">Unknown</span> | |
@@ -633,8 +633,8 @@ Package: de.leanovate.jbj.tests.lang.operators
 | lang/operators/divide_variationStr.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/operators/modulus_basiclong_64bit.phpt | <span class="state-ok">OK</span> | ModulusSpec |
 | lang/operators/modulus_variationStr.phpt | <span class="state-ok">OK</span> | ModulusSpec |
-| lang/operators/multiply_basiclong_64bit.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/operators/multiply_variationStr.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/operators/multiply_basiclong_64bit.phpt | <span class="state-ok">OK</span> | MulSpec |
+| lang/operators/multiply_variationStr.phpt | <span class="state-ok">OK</span> | MulSpec |
 | lang/operators/negate_basiclong_64bit.phpt | <span class="state-ok">OK</span> | NegateSpec |
 | lang/operators/negate_variationStr.phpt | <span class="state-ok">OK</span> | NegateSpec |
 | lang/operators/operator_equals_basic.phpt | <span class="state-ok">OK</span> | EqualsSpec |
