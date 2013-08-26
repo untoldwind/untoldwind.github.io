@@ -193,7 +193,7 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/destructor_and_exceptions.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/destructor_and_globals.phpt | <span class="state-ok">OK</span> | DestructorSpec |
 | classes/destructor_and_references.phpt | <span class="state-ok">OK</span> | DestructorSpec |
-| classes/destructor_inheritance.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/destructor_inheritance.phpt | <span class="state-ok">OK</span> | DestructorSpec |
 | classes/destructor_visibility_001.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/destructor_visibility_002.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/destructor_visibility_003.phpt | <span class="state-unknown">Unknown</span> | |
@@ -262,7 +262,7 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/private_001.phpt | <span class="state-ok">OK</span> | PrivateSpec |
 | classes/private_002.phpt | <span class="state-ok">OK</span> | PrivateSpec |
 | classes/private_003.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/private_003b.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/private_003b.phpt | <span class="state-ok">OK</span> | PrivateSpec |
 | classes/private_004.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/private_004b.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/private_005.phpt | <span class="state-unknown">Unknown</span> | |
