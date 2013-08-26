@@ -89,7 +89,7 @@ Spec package: de.leanovate.jbj.tests.classes
 |:-----|:-----:|:-----|
 | classes/__call_001.phpt | <span class="state-ok">OK</span> | CallSpec |
 | classes/__call_002.phpt | <span class="state-ok">OK</span> | CallSpec |
-| classes/__call_003.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/__call_003.phpt | <span class="state-ok">OK</span> | CallSpec |
 | classes/__call_004.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/__call_005.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/__call_006.phpt | <span class="state-unknown">Unknown</span> | |
@@ -179,8 +179,8 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/constants_error_006.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/constants_error_007.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/constants_scope_001.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/ctor_dtor.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/ctor_dtor_inheritance.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/ctor_dtor.phpt | <span class="state-ok">OK</span> | CtorDtorSpec |
+| classes/ctor_dtor_inheritance.phpt | <span class="state-ok">OK</span> | CtorDtorSpec |
 | classes/ctor_failure.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/ctor_in_interface_01.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/ctor_in_interface_02.phpt | <span class="state-unknown">Unknown</span> | |
@@ -197,13 +197,13 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/destructor_visibility_001.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/destructor_visibility_002.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/destructor_visibility_003.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/factory_001.phpt | <span class="state-ok">OK</span> | |
-| classes/factory_and_singleton_001.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/factory_and_singleton_002.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/factory_and_singleton_003.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/factory_and_singleton_004.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/factory_and_singleton_005.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/factory_and_singleton_006.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/factory_001.phpt | <span class="state-ok">OK</span> | FactorySpec |
+| classes/factory_and_singleton_001.phpt | <span class="state-ok">OK</span> | FactorySpec |
+| classes/factory_and_singleton_002.phpt | <span class="state-ok">OK</span> | FactorySpec |
+| classes/factory_and_singleton_003.phpt | <span class="state-ok">OK</span> | FactorySpec |
+| classes/factory_and_singleton_004.phpt | <span class="state-ok">OK</span> | FactorySpec |
+| classes/factory_and_singleton_005.phpt | <span class="state-ok">OK</span> | FactorySpec |
+| classes/factory_and_singleton_006.phpt | <span class="state-ok">OK</span> | FactorySpec |
 | classes/factory_and_singleton_007.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/factory_and_singleton_008.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/factory_and_singleton_009.phpt | <span class="state-unknown">Unknown</span> | |
@@ -316,7 +316,7 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/protected_001b.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/protected_002.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/serialize_001.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/singleton_001.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/singleton_001.phpt | <span class="state-ok">OK</span> | SingletonSpec |
 | classes/static_mix_1.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/static_mix_2.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/static_properties_001.phpt | <span class="state-ok">OK</span> | StaticPropertiesSpec |
@@ -426,11 +426,11 @@ Package: de.leanovate.jbj.tests.lang
 | lang/034.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/035.phpt | <span class="state-ok">OK</span> | Lang4Spec |
 | lang/036.phpt | <span class="state-ok">OK</span> | Lang4Spec |
-| lang/037.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/037.phpt | <span class="state-ok">OK</span> | Lang4Spec |
 | lang/038.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/039.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/040.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/041.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/040.phpt | <span class="state-ok">OK</span> | Lang5Spec |
+| lang/041.phpt | <span class="state-ok">OK</span> | Lang5Spec |
 | lang/042.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/043.phpt | <span class="state-ok">OK</span> | Lang5Spec |
 | lang/044.phpt | <span class="state-ok">OK</span> | Lang5Spec |
@@ -629,8 +629,8 @@ Package: de.leanovate.jbj.tests.lang.operators
 | lang/operators/bitwiseShiftRight_variationStr.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/operators/bitwiseXor_basiclong_64bit.phpt | <span class="state-ok">OK</span> | BitXorSpec |
 | lang/operators/bitwiseXor_variationStr.phpt | <span class="state-ok">OK</span> | BitXorSpec |
-| lang/operators/divide_basiclong_64bit.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/operators/divide_variationStr.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/operators/divide_basiclong_64bit.phpt | <span class="state-ok">OK</span> | DivSpec |
+| lang/operators/divide_variationStr.phpt | <span class="state-ok">OK</span> | DivSpec |
 | lang/operators/modulus_basiclong_64bit.phpt | <span class="state-ok">OK</span> | ModulusSpec |
 | lang/operators/modulus_variationStr.phpt | <span class="state-ok">OK</span> | ModulusSpec |
 | lang/operators/multiply_basiclong_64bit.phpt | <span class="state-ok">OK</span> | MulSpec |
