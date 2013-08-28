@@ -30,10 +30,10 @@ echo $ob;
 
 Actually I do not see a real-world use-case for this kind of buffer nesting, but it is a nice little brain-gym to guess the output of this snippet.
 
- By the way, it is
+By the way, it is
 
- ~~~
- 03412
- ~~~
+~~~
+03412
+~~~
 
 Of course ... I mean, what would you have expected?
