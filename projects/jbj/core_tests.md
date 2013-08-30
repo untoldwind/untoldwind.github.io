@@ -147,6 +147,10 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/autoload_018.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/autoload_019.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/autoload_020.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/autoload_drived.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/autoload_implements.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/autoload_interface.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/autoload_root.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/bug23951.phpt | <span class="state-ok">OK</span> | BugSpec |
 | classes/bug24399.phpt | <span class="state-ok">OK</span> | BugSpec |
 | classes/bug24445.phpt | <span class="state-ok">OK</span> | BugSpec |
@@ -165,12 +169,12 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/clone_004.phpt | <span class="state-ok">OK</span> | CloneSpec |
 | classes/clone_005.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/clone_006.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/constants_basic_001.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/constants_basic_002.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/constants_basic_003.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/constants_basic_004.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/constants_basic_005.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/constants_basic_006.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/constants_basic_001.phpt | <span class="state-ok">OK</span> | ConstantsSpec |
+| classes/constants_basic_002.phpt | <span class="state-ok">OK</span> | ConstantsSpec |
+| classes/constants_basic_003.phpt | <span class="state-ok">OK</span> | ConstantsSpec |
+| classes/constants_basic_004.phpt | <span class="state-ok">OK</span> | ConstantsSpec |
+| classes/constants_basic_005.phpt | <span class="state-ok">OK</span> | ConstantsSpec |
+| classes/constants_basic_006.phpt | <span class="state-ok">OK</span> | ConstantsSpec |
 | classes/constants_error_001.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/constants_error_002.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/constants_error_003.phpt | <span class="state-unknown">Unknown</span> | |
@@ -232,19 +236,19 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/interface_constant_inheritance_002.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/interface_constant_inheritance_003.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/interface_constant_inheritance_004.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/interface_doubled.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/interface_implemented.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/interface_instantiate.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/interface_member.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/interface_method.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/interface_method_final.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/interface_method_private.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/interface_must_be_implemented.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/interface_optional_arg.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/interface_optional_arg_002.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/interface_optional_arg_003.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/interfaces_001.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/interfaces_002.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/interface_doubled.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
+| classes/interface_implemented.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
+| classes/interface_instantiate.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
+| classes/interface_member.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
+| classes/interface_method.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
+| classes/interface_method_final.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
+| classes/interface_method_private.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
+| classes/interface_must_be_implemented.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
+| classes/interface_optional_arg.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
+| classes/interface_optional_arg_002.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
+| classes/interface_optional_arg_003.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
+| classes/interfaces_001.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
+| classes/interfaces_002.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
 | classes/interfaces_003.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/iterators_001.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/iterators_002.phpt | <span class="state-unknown">Unknown</span> | |
@@ -274,8 +278,8 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/private_members.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/private_members_serialization.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/private_redeclare.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/property_override_private_private.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/property_override_private_privateStatic.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/property_override_private_private.phpt | <span class="state-ok">OK</span> | PropertyOverridePrivateSpec |
+| classes/property_override_private_privateStatic.phpt | <span class="state-ok">OK</span> | PropertyOverridePrivateSpec |
 | classes/property_override_private_protected.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/property_override_private_protectedStatic.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/property_override_private_public.phpt | <span class="state-unknown">Unknown</span> | |
@@ -312,9 +316,9 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/property_override_publicStatic_publicStatic.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/property_recreate_private.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/property_recreate_protected.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/protected_001.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/protected_001b.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/protected_002.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/protected_001.phpt | <span class="state-ok">OK</span> | ProtectedSpec |
+| classes/protected_001b.phpt | <span class="state-ok">OK</span> | ProtectedSpec |
+| classes/protected_002.phpt | <span class="state-ok">OK</span> | ProtectedSpec |
 | classes/serialize_001.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/singleton_001.phpt | <span class="state-ok">OK</span> | SingletonSpec |
 | classes/static_mix_1.phpt | <span class="state-unknown">Unknown</span> | |
@@ -325,7 +329,7 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/static_properties_003_error2.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/static_properties_003_error3.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/static_properties_003_error4.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/static_properties_004.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/static_properties_004.phpt | <span class="state-ok">OK</span> | StaticPropertiesSpec |
 | classes/static_properties_undeclared_assign.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/static_properties_undeclared_assignInc.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/static_properties_undeclared_assignRef.phpt | <span class="state-unknown">Unknown</span> | |
@@ -441,13 +445,13 @@ Package: de.leanovate.jbj.tests.lang
 | lang/array_shortcut_005.phpt | <span class="state-ok">OK</span> | ArrayShortcutSpec |
 | lang/bison1.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/bug17115.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/bug18872.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/bug18872.phpt | <span class="state-ok">OK</span> | Bug1xxxxSpec |
 | lang/bug19566.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/bug19943.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/bug20175.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/bug19943.phpt | <span class="state-ok">OK</span> | Bug1xxxxSpec |
+| lang/bug20175.phpt | <span class="state-ok">OK</span> | Bug2xxxxSpec |
 | lang/bug21094.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/bug21600.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/bug21669.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/bug21600.phpt | <span class="state-ok">OK</span> | Bug2xxxxSpec |
+| lang/bug21669.phpt | <span class="state-ok">OK</span> | Bug2xxxxSpec |
 | lang/bug21820.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/bug21849.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/bug21961.phpt | <span class="state-unknown">Unknown</span> | |
@@ -701,7 +705,7 @@ Package: de.leanovate.jbj.tests.lang.operators
 | output/ob_017.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
 | output/ob_018.phpt | <span class="state-unknown">Unknown</span> | |
 | output/ob_020.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
-| output/ob_clean_basic_001.phpt | <span class="state-unknown">Unknown</span> | |
+| output/ob_clean_basic_001.phpt | <span class="state-ok">OK</span> | OutputBufferCleanSpec |
 | output/ob_clean_error_001.phpt | <span class="state-unknown">Unknown</span> | |
 | output/ob_end_clean_basic_001.phpt | <span class="state-unknown">Unknown</span> | |
 | output/ob_end_clean_error_001.phpt | <span class="state-unknown">Unknown</span> | |
@@ -709,8 +713,8 @@ Package: de.leanovate.jbj.tests.lang.operators
 | output/ob_end_flush_error_001.phpt | <span class="state-unknown">Unknown</span> | |
 | output/ob_flush_basic_001.phpt | <span class="state-unknown">Unknown</span> | |
 | output/ob_flush_error_001.phpt | <span class="state-unknown">Unknown</span> | |
-| output/ob_get_clean_basic_001.phpt | <span class="state-unknown">Unknown</span> | |
-| output/ob_get_clean_basic_002.phpt | <span class="state-unknown">Unknown</span> | |
+| output/ob_get_clean_basic_001.phpt | <span class="state-ok">OK</span> | OutputBufferCleanSpec |
+| output/ob_get_clean_basic_002.phpt | <span class="state-ok">OK</span> | OutputBufferCleanSpec |
 | output/ob_get_clean_error_001.phpt | <span class="state-unknown">Unknown</span> | |
 | output/ob_get_contents_basic_001.phpt | <span class="state-unknown">Unknown</span> | |
 | output/ob_get_contents_error_001.phpt | <span class="state-unknown">Unknown</span> | |
@@ -735,11 +739,18 @@ Package: de.leanovate.jbj.tests.lang.operators
 | output/ob_start_basic_unerasable_004.phpt | <span class="state-unknown">Unknown</span> | |
 | output/ob_start_basic_unerasable_005.phpt | <span class="state-unknown">Unknown</span> | |
 | output/ob_start_callbacks.phpt | <span class="state-unknown">Unknown</span> | |
-| output/ob_start_error_001.phpt | <span class="state-unknown">Unknown</span> | |
+| output/ob_start_error_001.phpt | <span class="state-ok">OK</span> | OutputBufferStartSpec |
 | output/ob_start_error_002.phpt | <span class="state-unknown">Unknown</span> | |
-| output/ob_start_error_003.phpt | <span class="state-unknown">Unknown</span> | |
-| output/ob_start_error_004.phpt | <span class="state-unknown">Unknown</span> | |
+| output/ob_start_error_003.phpt | <span class="state-ok">OK</span> | OutputBufferStartSpec |
+| output/ob_start_error_004.phpt | <span class="state-ok">OK</span> | OutputBufferStartSpec |
 | output/ob_start_error_005.phpt | <span class="state-unknown">Unknown</span> | |
+
+## Test support tests
+
+Package: ???
+
+| File | State | Spec |
+|:-----|:-----:|:-----|
 | run-test/test001.phpt | <span class="state-unknown">Unknown</span> | |
 | run-test/test002.phpt | <span class="state-unknown">Unknown</span> | |
 | run-test/test003.phpt | <span class="state-unknown">Unknown</span> | |
