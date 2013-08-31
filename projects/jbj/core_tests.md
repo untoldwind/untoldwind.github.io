@@ -4,7 +4,6 @@ title: "jbj - Tests"
 subtitle: Core tests
 root: .
 ---
-{% include root %}
 
 # Core tests
 
@@ -100,14 +99,14 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/__set__get_004.phpt | <span class="state-ok">OK</span> | SetGetSpec |
 | classes/__set__get_005.phpt | <span class="state-ok">OK</span> | SetGetSpec |
 | classes/__set_data_corrupt.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/abstract.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/abstract_by_interface_001.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/abstract_by_interface_002.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/abstract_class.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/abstract_derived.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/abstract_final.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/abstract_inherit.phpt | <span class="state-unknown">Unknown</span> | |
-| classes/abstract_not_declared.phpt | <span class="state-unknown">Unknown</span> | |
+| classes/abstract.phpt | <span class="state-ok">OK</span> | AbstractSpec |
+| classes/abstract_by_interface_001.phpt | <span class="state-ok">OK</span> | AbstractSpec |
+| classes/abstract_by_interface_002.phpt | <span class="state-ok">OK</span> | AbstractSpec |
+| classes/abstract_class.phpt | <span class="state-ok">OK</span> | AbstractSpec |
+| classes/abstract_derived.phpt | <span class="state-ok">OK</span> | AbstractSpec |
+| classes/abstract_final.phpt | <span class="state-ok">OK</span> | AbstractSpec |
+| classes/abstract_inherit.phpt | <span class="state-ok">OK</span> | AbstractSpec |
+| classes/abstract_not_declared.phpt | <span class="state-ok">OK</span> | AbstractSpec |
 | classes/abstract_redeclare.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/abstract_static.phpt | <span class="state-unknown">Unknown</span> | |
 | classes/abstract_user_call.phpt | <span class="state-unknown">Unknown</span> | |
@@ -453,16 +452,16 @@ Package: de.leanovate.jbj.tests.lang
 | lang/bug21600.phpt | <span class="state-ok">OK</span> | Bug2xxxxSpec |
 | lang/bug21669.phpt | <span class="state-ok">OK</span> | Bug2xxxxSpec |
 | lang/bug21820.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/bug21849.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/bug21961.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/bug22231.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/bug21849.phpt | <span class="state-ok">OK</span> | Bug2xxxxSpec |
+| lang/bug21961.phpt | <span class="state-ok">OK</span> | Bug2xxxxSpec |
+| lang/bug22231.phpt | <span class="state-ok">OK</span> | Bug2xxxxSpec |
 | lang/bug22510.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/bug22592.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/bug22690.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/bug23279.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/bug23384.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/bug23384.phpt | <span class="state-ok">OK</span> | Bug23xxxSpec |
 | lang/bug23489.phpt | <span class="state-unknown">Unknown</span> | |
-| lang/bug23524.phpt | <span class="state-unknown">Unknown</span> | |
+| lang/bug23524.phpt | <span class="state-ok">OK</span> | Bug23xxxSpec |
 | lang/bug23584.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/bug23624.phpt | <span class="state-unknown">Unknown</span> | |
 | lang/bug23922.phpt | <span class="state-unknown">Unknown</span> | |
