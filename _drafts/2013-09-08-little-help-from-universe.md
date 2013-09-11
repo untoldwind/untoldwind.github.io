@@ -67,3 +67,17 @@ src
 
 In jbj I solves this problem by splitting up the project in to different modules. All macros are defined inside the "jbj-runtime" modules and actually used in the "jbj-core" module (or any other dependent).
 
+{% highlight scala %}
+import scala.reflect.runtime.universe._
+
+object TestyTester {
+  def main(args: Array[String]) {
+    println(showRaw(reify {
+      println("Hello World!")
+    }))
+}
+{% endhighlight %}
+
+~~~
+Expr(Apply(Select(Ident(scala.Predef), newTermName("println")), List(Literal(Constant("Hello World!")))))
+~~~
