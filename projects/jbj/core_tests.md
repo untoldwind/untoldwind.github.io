@@ -248,7 +248,6 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/constants_error_007.phpt | <span class="state-ok">OK</span> |
 | classes/constants_scope_001.phpt | <span class="state-ok">OK</span> |
 
-
 ### de.leanovate.jbj.tests.classes.CtorDtorSpec
 
 | File | State |
@@ -263,21 +262,34 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/ctor_name_clash.phpt | <span class="state-unknown">Unknown</span> |
 | classes/ctor_visibility.phpt | <span class="state-unknown">Unknown</span> |
 | classes/dereferencing_001.phpt | <span class="state-ok">OK</span> |
-| classes/destructor_and_echo.phpt | <span class="state-ok">OK</span> | DestructorSpec |
+
+### de.leanovate.jbj.tests.classes.DestructorSpec
+
+| File | State |
+|:-----|:-----:|
+| classes/destructor_and_echo.phpt | <span class="state-ok">OK</span> |
 | classes/destructor_and_exceptions.phpt | <span class="state-unknown">Unknown</span> |
-| classes/destructor_and_globals.phpt | <span class="state-ok">OK</span> | DestructorSpec |
-| classes/destructor_and_references.phpt | <span class="state-ok">OK</span> | DestructorSpec |
-| classes/destructor_inheritance.phpt | <span class="state-ok">OK</span> | DestructorSpec |
-| classes/destructor_visibility_001.phpt | <span class="state-ok">OK</span> | DestructorSpec |
-| classes/destructor_visibility_002.phpt | <span class="state-ok">OK</span> | DestructorSpec |
-| classes/destructor_visibility_003.phpt | <span class="state-ok">OK</span> | DestructorSpec |
-| classes/factory_001.phpt | <span class="state-ok">OK</span> | FactorySpec |
-| classes/factory_and_singleton_001.phpt | <span class="state-ok">OK</span> | FactorySpec |
-| classes/factory_and_singleton_002.phpt | <span class="state-ok">OK</span> | FactorySpec |
-| classes/factory_and_singleton_003.phpt | <span class="state-ok">OK</span> | FactorySpec |
-| classes/factory_and_singleton_004.phpt | <span class="state-ok">OK</span> | FactorySpec |
-| classes/factory_and_singleton_005.phpt | <span class="state-ok">OK</span> | FactorySpec |
-| classes/factory_and_singleton_006.phpt | <span class="state-ok">OK</span> | FactorySpec |
+| classes/destructor_and_globals.phpt | <span class="state-ok">OK</span> |
+| classes/destructor_and_references.phpt | <span class="state-ok">OK</span> |
+| classes/destructor_inheritance.phpt | <span class="state-ok">OK</span> |
+| classes/destructor_visibility_001.phpt | <span class="state-ok">OK</span> |
+| classes/destructor_visibility_002.phpt | <span class="state-ok">OK</span> |
+| classes/destructor_visibility_003.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.classes.FactorySpec
+
+| File | State |
+|:-----|:-----:|
+| classes/factory_001.phpt | <span class="state-ok">OK</span> |
+| classes/factory_and_singleton_001.phpt | <span class="state-ok">OK</span> |
+| classes/factory_and_singleton_002.phpt | <span class="state-ok">OK</span> |
+| classes/factory_and_singleton_003.phpt | <span class="state-ok">OK</span> |
+| classes/factory_and_singleton_004.phpt | <span class="state-ok">OK</span> |
+| classes/factory_and_singleton_005.phpt | <span class="state-ok">OK</span> |
+| classes/factory_and_singleton_006.phpt | <span class="state-ok">OK</span> |
+
+| File | State |
+|:-----|:-----:|
 | classes/factory_and_singleton_007.phpt | <span class="state-unknown">Unknown</span> |
 | classes/factory_and_singleton_008.phpt | <span class="state-unknown">Unknown</span> |
 | classes/factory_and_singleton_009.phpt | <span class="state-unknown">Unknown</span> |
