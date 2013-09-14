@@ -145,19 +145,19 @@ Spec package: de.leanovate.jbj.tests.classes
 | File | State |
 |:-----|:-----:|
 | classes/array_access_001.phpt | <span class="state-ok">OK</span> |
-| classes/array_access_002.phpt | <span class="state-unknown">Unknown</span> |
-| classes/array_access_003.phpt | <span class="state-unknown">Unknown</span> |
-| classes/array_access_004.phpt | <span class="state-unknown">Unknown</span> |
-| classes/array_access_005.phpt | <span class="state-unknown">Unknown</span> |
-| classes/array_access_006.phpt | <span class="state-unknown">Unknown</span> |
-| classes/array_access_007.phpt | <span class="state-unknown">Unknown</span> |
-| classes/array_access_008.phpt | <span class="state-unknown">Unknown</span> |
-| classes/array_access_009.phpt | <span class="state-unknown">Unknown</span> |
-| classes/array_access_010.phpt | <span class="state-unknown">Unknown</span> |
-| classes/array_access_011.phpt | <span class="state-unknown">Unknown</span> |
-| classes/array_access_012.phpt | <span class="state-unknown">Unknown</span> |
-| classes/array_access_013.phpt | <span class="state-unknown">Unknown</span> |
-| classes/array_conversion_keys.phpt | <span class="state-unknown">Unknown</span> |
+| classes/array_access_002.phpt | <span class="state-ok">OK</span> |
+| classes/array_access_003.phpt | <span class="state-ok">OK</span> |
+| classes/array_access_004.phpt | <span class="state-ok">OK</span> |
+| classes/array_access_005.phpt | <span class="state-ok">OK</span> |
+| classes/array_access_006.phpt | <span class="state-ok">OK</span> |
+| classes/array_access_007.phpt | <span class="state-ok">OK</span> |
+| classes/array_access_008.phpt | <span class="state-ok">OK</span> |
+| classes/array_access_009.phpt | <span class="state-ok">OK</span> |
+| classes/array_access_010.phpt | <span class="state-ok">OK</span> |
+| classes/array_access_011.phpt | <span class="state-ok">OK</span> |
+| classes/array_access_012.phpt | <span class="state-ok">OK</span> |
+| classes/array_access_013.phpt | <span class="state-ok">OK</span> |
+| classes/array_conversion_keys.phpt | <span class="state-ok">OK</span> |
 | classes/arrayobject_001.phpt | <span class="state-unknown">Unknown</span> |
 
 ### de.leanovate.jbj.tests.classes.AssignPropertySpec
@@ -224,10 +224,10 @@ Spec package: de.leanovate.jbj.tests.classes
 |:-----|:-----:|
 | classes/clone_001.phpt | <span class="state-ok">OK</span> |
 | classes/clone_002.phpt | <span class="state-ok">OK</span> |
-| classes/clone_003.phpt | <span class="state-unknown">Unknown</span> |
+| classes/clone_003.phpt | <span class="state-ok">OK</span> |
 | classes/clone_004.phpt | <span class="state-ok">OK</span> |
-| classes/clone_005.phpt | <span class="state-unknown">Unknown</span> |
-| classes/clone_006.phpt | <span class="state-unknown">Unknown</span> |
+| classes/clone_005.phpt | <span class="state-ok">OK</span> |
+| classes/clone_006.phpt | <span class="state-ok">OK</span> |
 
 ### de.leanovate.jbj.tests.classes.ConstantsSpec
 
@@ -254,13 +254,18 @@ Spec package: de.leanovate.jbj.tests.classes
 |:-----|:-----:|
 | classes/ctor_dtor.phpt | <span class="state-ok">OK</span> |
 | classes/ctor_dtor_inheritance.phpt | <span class="state-ok">OK</span> |
-| classes/ctor_failure.phpt | <span class="state-unknown">Unknown</span> |
-| classes/ctor_in_interface_01.phpt | <span class="state-unknown">Unknown</span> |
-| classes/ctor_in_interface_02.phpt | <span class="state-unknown">Unknown</span> |
-| classes/ctor_in_interface_03.phpt | <span class="state-unknown">Unknown</span> |
-| classes/ctor_in_interface_04.phpt | <span class="state-unknown">Unknown</span> |
-| classes/ctor_name_clash.phpt | <span class="state-unknown">Unknown</span> |
-| classes/ctor_visibility.phpt | <span class="state-unknown">Unknown</span> |
+| classes/ctor_failure.phpt | <span class="state-ok">OK</span> |
+| classes/ctor_in_interface_01.phpt | <span class="state-ok">OK</span> |
+| classes/ctor_in_interface_02.phpt | <span class="state-ok">OK</span> |
+| classes/ctor_in_interface_03.phpt | <span class="state-ok">OK</span> |
+| classes/ctor_in_interface_04.phpt | <span class="state-ok">OK</span> |
+| classes/ctor_name_clash.phpt | <span class="state-ok">OK</span> |
+| classes/ctor_visibility.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.classes.DereferencingSpec
+
+| File | State |
+|:-----|:-----:|
 | classes/dereferencing_001.phpt | <span class="state-ok">OK</span> |
 
 ### de.leanovate.jbj.tests.classes.DestructorSpec
@@ -268,7 +273,7 @@ Spec package: de.leanovate.jbj.tests.classes
 | File | State |
 |:-----|:-----:|
 | classes/destructor_and_echo.phpt | <span class="state-ok">OK</span> |
-| classes/destructor_and_exceptions.phpt | <span class="state-unknown">Unknown</span> |
+| classes/destructor_and_exceptions.phpt | <span class="state-ok">OK</span> |
 | classes/destructor_and_globals.phpt | <span class="state-ok">OK</span> |
 | classes/destructor_and_references.phpt | <span class="state-ok">OK</span> |
 | classes/destructor_inheritance.phpt | <span class="state-ok">OK</span> |
@@ -287,51 +292,67 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/factory_and_singleton_004.phpt | <span class="state-ok">OK</span> |
 | classes/factory_and_singleton_005.phpt | <span class="state-ok">OK</span> |
 | classes/factory_and_singleton_006.phpt | <span class="state-ok">OK</span> |
+| classes/factory_and_singleton_007.phpt | <span class="state-ok">OK</span> |
+| classes/factory_and_singleton_008.phpt | <span class="state-ok">OK</span> |
+| classes/factory_and_singleton_009.phpt | <span class="state-ok">OK</span> |
+| classes/factory_and_singleton_010.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.classes.FinalSpec
 
 | File | State |
 |:-----|:-----:|
-| classes/factory_and_singleton_007.phpt | <span class="state-unknown">Unknown</span> |
-| classes/factory_and_singleton_008.phpt | <span class="state-unknown">Unknown</span> |
-| classes/factory_and_singleton_009.phpt | <span class="state-unknown">Unknown</span> |
-| classes/factory_and_singleton_010.phpt | <span class="state-unknown">Unknown</span> |
-| classes/final.phpt | <span class="state-ok">OK</span> | FinalSpec |
-| classes/final_abstract.phpt | <span class="state-ok">OK</span> | FinalSpec |
+| classes/final.phpt | <span class="state-ok">OK</span> |
+| classes/final_abstract.phpt | <span class="state-ok">OK</span> |
 | classes/final_ctor1.phpt | <span class="state-unknown">Unknown</span> |
 | classes/final_ctor2.phpt | <span class="state-unknown">Unknown</span> |
 | classes/final_ctor3.phpt | <span class="state-unknown">Unknown</span> |
-| classes/final_redeclare.phpt | <span class="state-ok">OK</span> | FinalSpec |
+| classes/final_redeclare.phpt | <span class="state-ok">OK</span> |
+
+
+| File | State |
+|:-----|:-----:|
 | classes/implicit_instantiation_001.phpt | <span class="state-unknown">Unknown</span> |
 | classes/incdec_property_001.phpt | <span class="state-ok">OK</span> |
 | classes/incdec_property_002.phpt | <span class="state-ok">OK</span> |
 | classes/incdec_property_003.phpt | <span class="state-ok">OK</span> |
 | classes/incdec_property_004.phpt | <span class="state-ok">OK</span> |
-| classes/inheritance.phpt | <span class="state-ok">OK</span> | InheritanceSpec |
-| classes/inheritance_002.phpt | <span class="state-ok">OK</span> | InheritanceSpec |
-| classes/inheritance_003.phpt | <span class="state-unknown">Unknown</span> |
-| classes/inheritance_004.phpt | <span class="state-unknown">Unknown</span> |
-| classes/inheritance_005.phpt | <span class="state-unknown">Unknown</span> |
-| classes/inheritance_006.phpt | <span class="state-unknown">Unknown</span> |
+
+### de.leanovate.jbj.tests.classes.InheritanceSpec
+
+| File | State |
+|:-----|:-----:|
+| classes/inheritance.phpt | <span class="state-ok">OK</span> | 
+| classes/inheritance_002.phpt | <span class="state-ok">OK</span> |
+| classes/inheritance_003.phpt | <span class="state-ok">OK</span> |
+| classes/inheritance_004.phpt | <span class="state-ok">OK</span> |
+| classes/inheritance_005.phpt | <span class="state-ok">OK</span> |
+| classes/inheritance_006.phpt | <span class="state-ok">OK</span> |
 | classes/inheritance_007.phpt | <span class="state-unknown">Unknown</span> |
-| classes/interface_and_extends.phpt | <span class="state-unknown">Unknown</span> |
-| classes/interface_class.phpt | <span class="state-unknown">Unknown</span> |
-| classes/interface_constant_inheritance_001.phpt | <span class="state-unknown">Unknown</span> |
-| classes/interface_constant_inheritance_002.phpt | <span class="state-unknown">Unknown</span> |
-| classes/interface_constant_inheritance_003.phpt | <span class="state-unknown">Unknown</span> |
-| classes/interface_constant_inheritance_004.phpt | <span class="state-unknown">Unknown</span> |
-| classes/interface_doubled.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
-| classes/interface_implemented.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
-| classes/interface_instantiate.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
-| classes/interface_member.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
-| classes/interface_method.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
-| classes/interface_method_final.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
-| classes/interface_method_private.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
-| classes/interface_must_be_implemented.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
-| classes/interface_optional_arg.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
-| classes/interface_optional_arg_002.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
-| classes/interface_optional_arg_003.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
-| classes/interfaces_001.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
-| classes/interfaces_002.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
-| classes/interfaces_003.phpt | <span class="state-ok">OK</span> | InterfacesSpec |
+
+### de.leanovate.jbj.tests.classes.InterfacesSpec
+
+| File | State |
+|:-----|:-----:|
+| classes/interface_and_extends.phpt | <span class="state-ok">OK</span> |
+| classes/interface_class.phpt | <span class="state-ok">OK</span> |
+| classes/interface_constant_inheritance_001.phpt | <span class="state-ok">OK</span> |
+| classes/interface_constant_inheritance_002.phpt | <span class="state-ok">OK</span> |
+| classes/interface_constant_inheritance_003.phpt | <span class="state-ok">OK</span> |
+| classes/interface_constant_inheritance_004.phpt | <span class="state-ok">OK</span> |
+| classes/interface_doubled.phpt | <span class="state-ok">OK</span> |
+| classes/interface_implemented.phpt | <span class="state-ok">OK</span> |
+| classes/interface_instantiate.phpt | <span class="state-ok">OK</span> |
+| classes/interface_member.phpt | <span class="state-ok">OK</span> |
+| classes/interface_method.phpt | <span class="state-ok">OK</span> |
+| classes/interface_method_final.phpt | <span class="state-ok">OK</span> |
+| classes/interface_method_private.phpt | <span class="state-ok">OK</span> |
+| classes/interface_must_be_implemented.phpt | <span class="state-ok">OK</span> |
+| classes/interface_optional_arg.phpt | <span class="state-ok">OK</span> |
+| classes/interface_optional_arg_002.phpt | <span class="state-ok">OK</span> |
+| classes/interface_optional_arg_003.phpt | <span class="state-ok">OK</span> |
+| classes/interfaces_001.phpt | <span class="state-ok">OK</span> |
+| classes/interfaces_002.phpt | <span class="state-ok">OK</span> |
+| classes/interfaces_003.phpt | <span class="state-ok">OK</span> |
 | classes/iterators_001.phpt | <span class="state-unknown">Unknown</span> |
 | classes/iterators_002.phpt | <span class="state-unknown">Unknown</span> |
 | classes/iterators_003.phpt | <span class="state-unknown">Unknown</span> |
@@ -343,59 +364,85 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/method_call_variation_001.phpt | <span class="state-ok">OK</span> | MethodCallSpec |
 | classes/method_override_optional_arg_001.phpt | <span class="state-unknown">Unknown</span> |
 | classes/method_override_optional_arg_002.phpt | <span class="state-unknown">Unknown</span> |
-| classes/new_001.phpt | <span class="state-unknown">Unknown</span> |
-| classes/object_reference_001.phpt | <span class="state-ok">OK</span> | ObjectReferenceSpec |
-| classes/private_001.phpt | <span class="state-ok">OK</span> | PrivateSpec |
-| classes/private_002.phpt | <span class="state-ok">OK</span> | PrivateSpec |
-| classes/private_003.phpt | <span class="state-unknown">Unknown</span> |
-| classes/private_003b.phpt | <span class="state-ok">OK</span> | PrivateSpec |
-| classes/private_004.phpt | <span class="state-unknown">Unknown</span> |
-| classes/private_004b.phpt | <span class="state-unknown">Unknown</span> |
-| classes/private_005.phpt | <span class="state-unknown">Unknown</span> |
-| classes/private_005b.phpt | <span class="state-unknown">Unknown</span> |
-| classes/private_006.phpt | <span class="state-unknown">Unknown</span> |
+
+### de.leanovate.jbj.tests.classes.ObjectReferenceSpec
+
+| File | State |
+|:-----|:-----:|
+| classes/new_001.phpt | <span class="state-ok">OK</span> |
+| classes/object_reference_001.phpt | <span class="state-ok">OK</span> |
+
+
+### de.leanovate.jbj.tests.classes.PrivateSpec
+
+| File | State |
+|:-----|:-----:|
+| classes/private_001.phpt | <span class="state-ok">OK</span> |
+| classes/private_002.phpt | <span class="state-ok">OK</span> |
+| classes/private_003.phpt | <span class="state-ok">OK</span> |
+| classes/private_003b.phpt | <span class="state-ok">OK</span> |
+| classes/private_004.phpt | <span class="state-ok">OK</span> |
+| classes/private_004b.phpt | <span class="state-ok">OK</span> |
+| classes/private_005.phpt | <span class="state-ok">OK</span> |
+| classes/private_005b.phpt | <span class="state-ok">OK</span> |
+| classes/private_006.phpt | <span class="state-ok">OK</span> |
 | classes/private_006b.phpt | <span class="state-unknown">Unknown</span> |
 | classes/private_007.phpt | <span class="state-unknown">Unknown</span> |
 | classes/private_007b.phpt | <span class="state-unknown">Unknown</span> |
 | classes/private_members.phpt | <span class="state-unknown">Unknown</span> |
 | classes/private_members_serialization.phpt | <span class="state-unknown">Unknown</span> |
 | classes/private_redeclare.phpt | <span class="state-unknown">Unknown</span> |
-| classes/property_override_private_private.phpt | <span class="state-ok">OK</span> | PropertyOverridePrivateSpec |
-| classes/property_override_private_privateStatic.phpt | <span class="state-ok">OK</span> | PropertyOverridePrivateSpec |
-| classes/property_override_private_protected.phpt | <span class="state-ok">OK</span> | PropertyOverridePrivateSpec |
-| classes/property_override_private_protectedStatic.phpt | <span class="state-ok">OK</span> | PropertyOverridePrivateSpec |
-| classes/property_override_private_public.phpt | <span class="state-ok">OK</span> | PropertyOverridePrivateSpec |
-| classes/property_override_private_publicStatic.phpt | <span class="state-ok">OK</span> | PropertyOverridePrivateSpec |
-| classes/property_override_privateStatic_private.phpt | <span class="state-ok">OK</span> | PropertyOverridePrivateSpec |
-| classes/property_override_privateStatic_privateStatic.phpt | <span class="state-ok">OK</span> | PropertyOverridePrivateSpec |
-| classes/property_override_privateStatic_protected.phpt | <span class="state-ok">OK</span> | PropertyOverridePrivateSpec |
-| classes/property_override_privateStatic_protectedStatic.phpt | <span class="state-ok">OK</span> | PropertyOverridePrivateSpec |
-| classes/property_override_privateStatic_public.phpt | <span class="state-ok">OK</span> | PropertyOverridePrivateSpec |
-| classes/property_override_privateStatic_publicStatic.phpt | <span class="state-ok">OK</span> | PropertyOverridePrivateSpec |
-| classes/property_override_protected_private.phpt | <span class="state-ok">OK</span> | PropertyOverrideProtectedSpec |
-| classes/property_override_protected_privateStatic.phpt | <span class="state-ok">OK</span> | PropertyOverrideProtectedSpec |
-| classes/property_override_protected_protected.phpt | <span class="state-ok">OK</span> | PropertyOverrideProtectedSpec |
-| classes/property_override_protected_protectedStatic.phpt | <span class="state-ok">OK</span> | PropertyOverrideProtectedSpec |
-| classes/property_override_protected_public.phpt | <span class="state-ok">OK</span> | PropertyOverrideProtectedSpec |
-| classes/property_override_protected_publicStatic.phpt | <span class="state-ok">OK</span> | PropertyOverrideProtectedSpec |
-| classes/property_override_protectedStatic_private.phpt | <span class="state-ok">OK</span> | PropertyOverrideProtectedSpec |
-| classes/property_override_protectedStatic_privateStatic.phpt | <span class="state-ok">OK</span> | PropertyOverrideProtectedSpec |
-| classes/property_override_protectedStatic_protected.phpt | <span class="state-ok">OK</span> | PropertyOverrideProtectedSpec |
-| classes/property_override_protectedStatic_protectedStatic.phpt | <span class="state-ok">OK</span> | PropertyOverrideProtectedSpec |
-| classes/property_override_protectedStatic_public.phpt | <span class="state-ok">OK</span> | PropertyOverrideProtectedSpec |
-| classes/property_override_protectedStatic_publicStatic.phpt | <span class="state-ok">OK</span> | PropertyOverrideProtectedSpec |
-| classes/property_override_public_private.phpt | <span class="state-ok">OK</span> | PropertyOverridePublicSpec |
-| classes/property_override_public_privateStatic.phpt | <span class="state-ok">OK</span> | PropertyOverridePublicSpec |
-| classes/property_override_public_protected.phpt | <span class="state-ok">OK</span> | PropertyOverridePublicSpec |
-| classes/property_override_public_protectedStatic.phpt | <span class="state-ok">OK</span> | PropertyOverridePublicSpec |
-| classes/property_override_public_public.phpt | <span class="state-ok">OK</span> | PropertyOverridePublicSpec |
-| classes/property_override_public_publicStatic.phpt | <span class="state-ok">OK</span> | PropertyOverridePublicSpec |
-| classes/property_override_publicStatic_private.phpt | <span class="state-ok">OK</span> | PropertyOverridePublicSpec |
-| classes/property_override_publicStatic_privateStatic.phpt | <span class="state-ok">OK</span> | PropertyOverridePublicSpec |
-| classes/property_override_publicStatic_protected.phpt | <span class="state-ok">OK</span> | PropertyOverridePublicSpec |
-| classes/property_override_publicStatic_protectedStatic.phpt | <span class="state-ok">OK</span> | PropertyOverridePublicSpec |
-| classes/property_override_publicStatic_public.phpt | <span class="state-ok">OK</span> | PropertyOverridePublicSpec |
-| classes/property_override_publicStatic_publicStatic.phpt | <span class="state-ok">OK</span> | PropertyOverridePublicSpec |
+
+### de.leanovate.jbj.tests.classes.PropertyOverridePrivateSpec
+
+| File | State |
+|:-----|:-----:|
+| classes/property_override_private_private.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_private_privateStatic.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_private_protected.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_private_protectedStatic.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_private_public.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_private_publicStatic.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_privateStatic_private.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_privateStatic_privateStatic.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_privateStatic_protected.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_privateStatic_protectedStatic.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_privateStatic_public.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_privateStatic_publicStatic.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.classes.PropertyOverrideProtectedSpec
+
+| File | State |
+|:-----|:-----:|
+| classes/property_override_protected_private.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_protected_privateStatic.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_protected_protected.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_protected_protectedStatic.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_protected_public.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_protected_publicStatic.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_protectedStatic_private.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_protectedStatic_privateStatic.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_protectedStatic_protected.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_protectedStatic_protectedStatic.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_protectedStatic_public.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_protectedStatic_publicStatic.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.classes.PropertyOverridePublicSpec
+
+| File | State |
+|:-----|:-----:|
+| classes/property_override_public_private.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_public_privateStatic.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_public_protected.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_public_protectedStatic.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_public_public.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_public_publicStatic.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_publicStatic_private.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_publicStatic_privateStatic.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_publicStatic_protected.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_publicStatic_protectedStatic.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_publicStatic_public.phpt | <span class="state-ok">OK</span> |
+| classes/property_override_publicStatic_publicStatic.phpt | <span class="state-ok">OK</span> |
 | classes/property_recreate_private.phpt | <span class="state-unknown">Unknown</span> |
 | classes/property_recreate_protected.phpt | <span class="state-unknown">Unknown</span> |
 | classes/protected_001.phpt | <span class="state-ok">OK</span> | ProtectedSpec |
@@ -405,29 +452,40 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/singleton_001.phpt | <span class="state-ok">OK</span> | SingletonSpec |
 | classes/static_mix_1.phpt | <span class="state-ok">OK</span> | StaticMixSpec |
 | classes/static_mix_2.phpt | <span class="state-ok">OK</span> | StaticMixSpec |
-| classes/static_properties_001.phpt | <span class="state-ok">OK</span> | StaticPropertiesSpec |
-| classes/static_properties_003.phpt | <span class="state-ok">OK</span> | StaticPropertiesSpec |
-| classes/static_properties_003_error1.phpt | <span class="state-ok">OK</span> | StaticPropertiesSpec |
-| classes/static_properties_003_error2.phpt | <span class="state-ok">OK</span> | StaticPropertiesSpec |
-| classes/static_properties_003_error3.phpt | <span class="state-ok">OK</span> | StaticPropertiesSpec |
-| classes/static_properties_003_error4.phpt | <span class="state-ok">OK</span> | StaticPropertiesSpec |
-| classes/static_properties_004.phpt | <span class="state-ok">OK</span> | StaticPropertiesSpec |
-| classes/static_properties_undeclared_assign.phpt | <span class="state-ok">OK</span> | StaticPropertiesSpec |
-| classes/static_properties_undeclared_assignInc.phpt | <span class="state-ok">OK</span> | StaticPropertiesSpec |
-| classes/static_properties_undeclared_assignRef.phpt | <span class="state-ok">OK</span> | StaticPropertiesSpec |
-| classes/static_properties_undeclared_inc.phpt | <span class="state-ok">OK</span> | StaticPropertiesSpec |
-| classes/static_properties_undeclared_isset.phpt | <span class="state-ok">OK</span> | StaticPropertiesSpec |
-| classes/static_properties_undeclared_read.phpt | <span class="state-ok">OK</span> | StaticPropertiesSpec |
+
+
+### de.leanovate.jbj.tests.classes.StaticPropertiesSpec
+
+| File | State |
+|:-----|:-----:|
+| classes/static_properties_001.phpt | <span class="state-ok">OK</span> |
+| classes/static_properties_003.phpt | <span class="state-ok">OK</span> |
+| classes/static_properties_003_error1.phpt | <span class="state-ok">OK</span> |
+| classes/static_properties_003_error2.phpt | <span class="state-ok">OK</span> |
+| classes/static_properties_003_error3.phpt | <span class="state-ok">OK</span> |
+| classes/static_properties_003_error4.phpt | <span class="state-ok">OK</span> |
+| classes/static_properties_004.phpt | <span class="state-ok">OK</span> |
+| classes/static_properties_undeclared_assign.phpt | <span class="state-ok">OK</span> |
+| classes/static_properties_undeclared_assignInc.phpt | <span class="state-ok">OK</span> |
+| classes/static_properties_undeclared_assignRef.phpt | <span class="state-ok">OK</span> |
+| classes/static_properties_undeclared_inc.phpt | <span class="state-ok">OK</span> |
+| classes/static_properties_undeclared_isset.phpt | <span class="state-ok">OK</span> |
+| classes/static_properties_undeclared_read.phpt | <span class="state-ok">OK</span> |
 | classes/static_this.phpt | <span class="state-unknown">Unknown</span> |
 | classes/this.phpt | <span class="state-unknown">Unknown</span> |
 | classes/tostring_001.phpt | <span class="state-unknown">Unknown</span> |
 | classes/tostring_002.phpt | <span class="state-unknown">Unknown</span> |
 | classes/tostring_003.phpt | <span class="state-unknown">Unknown</span> |
 | classes/tostring_004.phpt | <span class="state-unknown">Unknown</span> |
-| classes/type_hinting_001.phpt | <span class="state-ok">OK</span> | TypeHintingSpec |
-| classes/type_hinting_002.phpt | <span class="state-ok">OK</span> | TypeHintingSpec |
-| classes/type_hinting_003.phpt | <span class="state-ok">OK</span> | TypeHintingSpec |
-| classes/type_hinting_004.phpt | <span class="state-ok">OK</span> | TypeHintingSpec |
+
+### de.leanovate.jbj.tests.classes.TypeHintingSpec
+
+| File | State |
+|:-----|:-----:|
+| classes/type_hinting_001.phpt | <span class="state-ok">OK</span> |
+| classes/type_hinting_002.phpt | <span class="state-ok">OK</span> | 
+| classes/type_hinting_003.phpt | <span class="state-ok">OK</span> | 
+| classes/type_hinting_004.phpt | <span class="state-ok">OK</span> |
 | classes/type_hinting_005a.phpt | <span class="state-unknown">Unknown</span> |
 | classes/type_hinting_005b.phpt | <span class="state-unknown">Unknown</span> |
 | classes/type_hinting_005c.phpt | <span class="state-unknown">Unknown</span> |
