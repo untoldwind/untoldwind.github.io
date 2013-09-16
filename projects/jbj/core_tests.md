@@ -443,16 +443,26 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/property_override_publicStatic_protectedStatic.phpt | <span class="state-ok">OK</span> |
 | classes/property_override_publicStatic_public.phpt | <span class="state-ok">OK</span> |
 | classes/property_override_publicStatic_publicStatic.phpt | <span class="state-ok">OK</span> |
+
+
+### de.leanovate.jbj.tests.classes.ProtectedSpec
+
+| File | State |
+|:-----|:-----:|
 | classes/property_recreate_private.phpt | <span class="state-unknown">Unknown</span> |
 | classes/property_recreate_protected.phpt | <span class="state-unknown">Unknown</span> |
-| classes/protected_001.phpt | <span class="state-ok">OK</span> | ProtectedSpec |
-| classes/protected_001b.phpt | <span class="state-ok">OK</span> | ProtectedSpec |
-| classes/protected_002.phpt | <span class="state-ok">OK</span> | ProtectedSpec |
+| classes/protected_001.phpt | <span class="state-ok">OK</span> |
+| classes/protected_001b.phpt | <span class="state-ok">OK</span> |
+| classes/protected_002.phpt | <span class="state-ok">OK</span> |
 | classes/serialize_001.phpt | <span class="state-unknown">Unknown</span> |
 | classes/singleton_001.phpt | <span class="state-ok">OK</span> | SingletonSpec |
-| classes/static_mix_1.phpt | <span class="state-ok">OK</span> | StaticMixSpec |
-| classes/static_mix_2.phpt | <span class="state-ok">OK</span> | StaticMixSpec |
 
+### de.leanovate.jbj.tests.classes.StaticMixSpec
+
+| File | State |
+|:-----|:-----:|
+| classes/static_mix_1.phpt | <span class="state-ok">OK</span> |
+| classes/static_mix_2.phpt | <span class="state-ok">OK</span> |
 
 ### de.leanovate.jbj.tests.classes.StaticPropertiesSpec
 
@@ -471,12 +481,22 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/static_properties_undeclared_inc.phpt | <span class="state-ok">OK</span> |
 | classes/static_properties_undeclared_isset.phpt | <span class="state-ok">OK</span> |
 | classes/static_properties_undeclared_read.phpt | <span class="state-ok">OK</span> |
-| classes/static_this.phpt | <span class="state-unknown">Unknown</span> |
-| classes/this.phpt | <span class="state-unknown">Unknown</span> |
-| classes/tostring_001.phpt | <span class="state-unknown">Unknown</span> |
-| classes/tostring_002.phpt | <span class="state-unknown">Unknown</span> |
-| classes/tostring_003.phpt | <span class="state-unknown">Unknown</span> |
-| classes/tostring_004.phpt | <span class="state-unknown">Unknown</span> |
+
+### de.leanovate.jbj.tests.classes.ThisSpec
+
+| File | State |
+|:-----|:-----:|
+| classes/static_this.phpt | <span class="state-ok">OK</span> |
+| classes/this.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.classes.ToStringSpec
+
+| File | State |
+|:-----|:-----:|
+| classes/tostring_001.phpt | <span class="state-ok">OK</span> |
+| classes/tostring_002.phpt | <span class="state-ok">OK</span> |
+| classes/tostring_003.phpt | <span class="state-ok">OK</span> |
+| classes/tostring_004.phpt | <span class="state-ok">OK</span> |
 
 ### de.leanovate.jbj.tests.classes.TypeHintingSpec
 
@@ -486,26 +506,32 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/type_hinting_002.phpt | <span class="state-ok">OK</span> | 
 | classes/type_hinting_003.phpt | <span class="state-ok">OK</span> | 
 | classes/type_hinting_004.phpt | <span class="state-ok">OK</span> |
-| classes/type_hinting_005a.phpt | <span class="state-unknown">Unknown</span> |
-| classes/type_hinting_005b.phpt | <span class="state-unknown">Unknown</span> |
-| classes/type_hinting_005c.phpt | <span class="state-unknown">Unknown</span> |
-| classes/type_hinting_005d.phpt | <span class="state-unknown">Unknown</span> |
+| classes/type_hinting_005a.phpt | <span class="state-ok">OK</span> |
+| classes/type_hinting_005b.phpt | <span class="state-ok">OK</span> |
+| classes/type_hinting_005c.phpt | <span class="state-ok">OK</span> |
+| classes/type_hinting_005d.phpt | <span class="state-ok">OK</span> |
 | classes/unset_properties.phpt | <span class="state-unknown">Unknown</span> |
-| classes/visibility_000a.phpt | <span class="state-unknown">Unknown</span> |
-| classes/visibility_000b.phpt | <span class="state-unknown">Unknown</span> |
-| classes/visibility_000c.phpt | <span class="state-unknown">Unknown</span> |
-| classes/visibility_001a.phpt | <span class="state-unknown">Unknown</span> |
-| classes/visibility_001b.phpt | <span class="state-unknown">Unknown</span> |
-| classes/visibility_001c.phpt | <span class="state-unknown">Unknown</span> |
-| classes/visibility_002a.phpt | <span class="state-unknown">Unknown</span> |
-| classes/visibility_002b.phpt | <span class="state-unknown">Unknown</span> |
-| classes/visibility_002c.phpt | <span class="state-unknown">Unknown</span> |
-| classes/visibility_003a.phpt | <span class="state-unknown">Unknown</span> |
-| classes/visibility_003b.phpt | <span class="state-unknown">Unknown</span> |
-| classes/visibility_003c.phpt | <span class="state-unknown">Unknown</span> |
-| classes/visibility_004a.phpt | <span class="state-unknown">Unknown</span> |
-| classes/visibility_004b.phpt | <span class="state-unknown">Unknown</span> |
-| classes/visibility_004c.phpt | <span class="state-unknown">Unknown</span> |
+
+
+### de.leanovate.jbj.tests.classes.VisibilitySpec
+
+| File | State |
+|:-----|:-----:|
+| classes/visibility_000a.phpt | <span class="state-ok">OK</span> |
+| classes/visibility_000b.phpt | <span class="state-ok">OK</span> |
+| classes/visibility_000c.phpt | <span class="state-ok">OK</span> |
+| classes/visibility_001a.phpt | <span class="state-ok">OK</span> |
+| classes/visibility_001b.phpt | <span class="state-ok">OK</span> |
+| classes/visibility_001c.phpt | <span class="state-ok">OK</span> |
+| classes/visibility_002a.phpt | <span class="state-ok">OK</span> |
+| classes/visibility_002b.phpt | <span class="state-ok">OK</span> |
+| classes/visibility_002c.phpt | <span class="state-ok">OK</span> |
+| classes/visibility_003a.phpt | <span class="state-ok">OK</span> |
+| classes/visibility_003b.phpt | <span class="state-ok">OK</span> |
+| classes/visibility_003c.phpt | <span class="state-ok">OK</span> |
+| classes/visibility_004a.phpt | <span class="state-ok">OK</span> |
+| classes/visibility_004b.phpt | <span class="state-ok">OK</span> |
+| classes/visibility_004c.phpt | <span class="state-ok">OK</span> |
 | classes/visibility_005.phpt | <span class="state-unknown">Unknown</span> |
 
 ## Functions
@@ -533,57 +559,90 @@ Package: de.leanovate.jbj.tests.func
 
 Package: de.leanovate.jbj.tests.lang
 
-| File | State | Spec |
-|:-----|:-----:|:-----|
-| lang/001.phpt | <span class="state-ok">OK</span> | Lang1Spec |
-| lang/002.phpt | <span class="state-ok">OK</span> | Lang1Spec |
-| lang/003.phpt | <span class="state-ok">OK</span> | Lang1Spec |
-| lang/004.phpt | <span class="state-ok">OK</span> | Lang1Spec |
-| lang/005.phpt | <span class="state-ok">OK</span> | Lang1Spec |
-| lang/006.phpt | <span class="state-ok">OK</span> | Lang1Spec |
-| lang/007.phpt | <span class="state-ok">OK</span> | Lang1Spec |
-| lang/008.phpt | <span class="state-ok">OK</span> | Lang1Spec |
-| lang/009.phpt | <span class="state-ok">OK</span> | Lang1Spec |
-| lang/010.phpt | <span class="state-ok">OK</span> | Lang2Spec |
-| lang/011.phpt | <span class="state-ok">OK</span> | Lang2Spec |
-| lang/012.phpt | <span class="state-ok">OK</span> | Lang2Spec |
-| lang/013.phpt | <span class="state-ok">OK</span> | Lang2Spec |
-| lang/014.phpt | <span class="state-ok">OK</span> | Lang2Spec |
-| lang/015.phpt | <span class="state-ok">OK</span> | Lang2Spec |
-| lang/016.phpt | <span class="state-ok">OK</span> | Lang2Spec |
-| lang/017.phpt | <span class="state-ok">OK</span> | Lang2Spec |
-| lang/018.phpt | <span class="state-ok">OK</span> | Lang2Spec |
-| lang/019.phpt | <span class="state-ok">OK</span> | Lang2Spec |
-| lang/020.phpt | <span class="state-ok">OK</span> | Lang3Spec |
-| lang/021.phpt | <span class="state-ok">OK</span> | Lang3Spec |
-| lang/022.phpt | <span class="state-ok">OK</span> | Lang3Spec |
-| lang/023.phpt | <span class="state-ok">OK</span> | Lang3Spec |
-| lang/024.phpt | <span class="state-ok">OK</span> | Lang3Spec |
-| lang/025.phpt | <span class="state-ok">OK</span> | Lang3Spec |
-| lang/026.phpt | <span class="state-ok">OK</span> | Lang3Spec |
-| lang/027.phpt | <span class="state-ok">OK</span> | Lang3Spec |
-| lang/028.phpt | <span class="state-ok">OK</span> | Lang3Spec |
-| lang/030.phpt | <span class="state-ok">OK</span> | Lang4Spec |
-| lang/031.phpt | <span class="state-ok">OK</span> | Lang4Spec |
-| lang/032.phpt | <span class="state-ok">OK</span> | Lang4Spec |
-| lang/033.phpt | <span class="state-ok">OK</span> | Lang4Spec |
+### de.leanovate.jbj.tests.lang.Lang1Spec
+
+| File | State |
+|:-----|:-----:|
+| lang/001.phpt | <span class="state-ok">OK</span> |
+| lang/002.phpt | <span class="state-ok">OK</span> |
+| lang/003.phpt | <span class="state-ok">OK</span> |
+| lang/004.phpt | <span class="state-ok">OK</span> |
+| lang/005.phpt | <span class="state-ok">OK</span> |
+| lang/006.phpt | <span class="state-ok">OK</span> |
+| lang/007.phpt | <span class="state-ok">OK</span> |
+| lang/008.phpt | <span class="state-ok">OK</span> |
+| lang/009.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.Lang2Spec
+
+| File | State |
+|:-----|:-----:|
+| lang/010.phpt | <span class="state-ok">OK</span> |
+| lang/011.phpt | <span class="state-ok">OK</span> |
+| lang/012.phpt | <span class="state-ok">OK</span> |
+| lang/013.phpt | <span class="state-ok">OK</span> |
+| lang/014.phpt | <span class="state-ok">OK</span> |
+| lang/015.phpt | <span class="state-ok">OK</span> |
+| lang/016.phpt | <span class="state-ok">OK</span> |
+| lang/017.phpt | <span class="state-ok">OK</span> |
+| lang/018.phpt | <span class="state-ok">OK</span> |
+| lang/019.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.Lang3Spec
+
+| File | State |
+|:-----|:-----:|
+| lang/020.phpt | <span class="state-ok">OK</span> |
+| lang/021.phpt | <span class="state-ok">OK</span> |
+| lang/022.phpt | <span class="state-ok">OK</span> |
+| lang/023.phpt | <span class="state-ok">OK</span> |
+| lang/024.phpt | <span class="state-ok">OK</span> |
+| lang/025.phpt | <span class="state-ok">OK</span> |
+| lang/026.phpt | <span class="state-ok">OK</span> |
+| lang/027.phpt | <span class="state-ok">OK</span> |
+| lang/028.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.Lang4Spec
+
+| File | State |
+|:-----|:-----:|
+| lang/030.phpt | <span class="state-ok">OK</span> |
+| lang/031.phpt | <span class="state-ok">OK</span> |
+| lang/032.phpt | <span class="state-ok">OK</span> |
+| lang/033.phpt | <span class="state-ok">OK</span> |
 | lang/034.phpt | <span class="state-unknown">Unknown</span> |
-| lang/035.phpt | <span class="state-ok">OK</span> | Lang4Spec |
-| lang/036.phpt | <span class="state-ok">OK</span> | Lang4Spec |
-| lang/037.phpt | <span class="state-ok">OK</span> | Lang4Spec |
+| lang/035.phpt | <span class="state-ok">OK</span> |
+| lang/036.phpt | <span class="state-ok">OK</span> |
+| lang/037.phpt | <span class="state-ok">OK</span> |
 | lang/038.phpt | <span class="state-unknown">Unknown</span> |
 | lang/039.phpt | <span class="state-unknown">Unknown</span> |
-| lang/040.phpt | <span class="state-ok">OK</span> | Lang5Spec |
-| lang/041.phpt | <span class="state-ok">OK</span> | Lang5Spec |
-| lang/042.phpt | <span class="state-unknown">Unknown</span> |
-| lang/043.phpt | <span class="state-ok">OK</span> | Lang5Spec |
-| lang/044.phpt | <span class="state-ok">OK</span> | Lang5Spec |
+
+### de.leanovate.jbj.tests.lang.Lang5Spec
+
+| File | State |
+|:-----|:-----:|
+| lang/040.phpt | <span class="state-ok">OK</span> |
+| lang/041.phpt | <span class="state-ok">OK</span> |
+| lang/042.phpt | <span class="state-ok">OK</span> |
+| lang/043.phpt | <span class="state-ok">OK</span> |
+| lang/044.phpt | <span class="state-ok">OK</span> |
 | lang/045.phpt | <span class="state-unknown">Unknown</span> |
-| lang/array_shortcut_001.phpt | <span class="state-ok">OK</span> | ArrayShortcutSpec |
-| lang/array_shortcut_002.phpt | <span class="state-ok">OK</span> | ArrayShortcutSpec |
-| lang/array_shortcut_003.phpt | <span class="state-ok">OK</span> | ArrayShortcutSpec|
-| lang/array_shortcut_005.phpt | <span class="state-ok">OK</span> | ArrayShortcutSpec |
-| lang/bison1.phpt | <span class="state-unknown">Unknown</span> |
+
+### de.leanovate.jbj.tests.lang.ArrayShortcutSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/array_shortcut_001.phpt | <span class="state-ok">OK</span> |
+| lang/array_shortcut_002.phpt | <span class="state-ok">OK</span> |
+| lang/array_shortcut_003.phpt | <span class="state-ok">OK</span> |
+| lang/array_shortcut_005.phpt | <span class="state-ok">OK</span> |
+
+
+### de.leanovate.jbj.tests.lang.BisonSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/bison1.phpt | <span class="state-ok">OK</span> |
 | lang/bug17115.phpt | <span class="state-unknown">Unknown</span> |
 | lang/bug18872.phpt | <span class="state-ok">OK</span> | Bug1xxxxSpec |
 | lang/bug19566.phpt | <span class="state-unknown">Unknown</span> |
@@ -659,15 +718,20 @@ Package: de.leanovate.jbj.tests.lang
 | lang/compare_objects_basic2.phpt | <span class="state-unknown">Unknown</span> |
 | lang/each_binary_safety.phpt | <span class="state-unknown">Unknown</span> |
 | lang/empty_variation.phpt | <span class="state-unknown">Unknown</span> |
-| lang/engine_assignExecutionOrder_001.phpt | <span class="state-ok">OK</span> | EngineAssignExecOrderSpec |
-| lang/engine_assignExecutionOrder_002.phpt | <span class="state-ok">OK</span> | EngineAssignExecOrderSpec |
-| lang/engine_assignExecutionOrder_003.phpt | <span class="state-ok">OK</span> | EngineAssignExecOrderSpec |
-| lang/engine_assignExecutionOrder_004.phpt | <span class="state-ok">OK</span> | EngineAssignExecOrderSpec |
-| lang/engine_assignExecutionOrder_005.phpt | <span class="state-ok">OK</span> | EngineAssignExecOrderSpec |
-| lang/engine_assignExecutionOrder_006.phpt | <span class="state-ok">OK</span> | EngineAssignExecOrderSpec |
-| lang/engine_assignExecutionOrder_007.phpt | <span class="state-ok">OK</span> | EngineAssignExecOrderSpec |
-| lang/engine_assignExecutionOrder_008.phpt | <span class="state-ok">OK</span> | EngineAssignExecOrderSpec |
-| lang/engine_assignExecutionOrder_009.phpt | <span class="state-ok">OK</span> | EngineAssignExecOrderSpec |
+
+### de.leanovate.jbj.tests.lang.EngineAssignExecOrderSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/engine_assignExecutionOrder_001.phpt | <span class="state-ok">OK</span> |
+| lang/engine_assignExecutionOrder_002.phpt | <span class="state-ok">OK</span> |
+| lang/engine_assignExecutionOrder_003.phpt | <span class="state-ok">OK</span> |
+| lang/engine_assignExecutionOrder_004.phpt | <span class="state-ok">OK</span> |
+| lang/engine_assignExecutionOrder_005.phpt | <span class="state-ok">OK</span> |
+| lang/engine_assignExecutionOrder_006.phpt | <span class="state-ok">OK</span> |
+| lang/engine_assignExecutionOrder_007.phpt | <span class="state-ok">OK</span> |
+| lang/engine_assignExecutionOrder_008.phpt | <span class="state-ok">OK</span> |
+| lang/engine_assignExecutionOrder_009.phpt | <span class="state-ok">OK</span> |
 | lang/error_2_exception_001.phpt | <span class="state-unknown">Unknown</span> |
 | lang/execution_order.phpt | <span class="state-unknown">Unknown</span> |
 | lang/foreach_with_object_001.phpt | <span class="state-ok">OK</span> | ForeachSpec |
@@ -699,43 +763,63 @@ Package: de.leanovate.jbj.tests.lang
 | lang/foreachLoopObjects.004.phpt | <span class="state-unknown">Unknown</span> |
 | lang/foreachLoopObjects.005.phpt | <span class="state-unknown">Unknown</span> |
 | lang/foreachLoopObjects.006.phpt | <span class="state-unknown">Unknown</span> |
-| lang/func_get_arg.001.phpt | <span class="state-ok">OK</span> | FuncArgSpec |
-| lang/func_get_arg.002.phpt | <span class="state-ok">OK</span> | FuncArgSpec |
-| lang/func_get_arg.003.phpt | <span class="state-ok">OK</span> | FuncArgSpec |
-| lang/func_get_arg.004.phpt | <span class="state-ok">OK</span> | FuncArgSpec |
-| lang/func_get_arg.005.phpt | <span class="state-ok">OK</span> | FuncArgSpec |
-| lang/func_get_arg_variation.phpt | <span class="state-ok">OK</span> | FuncArgSpec |
-| lang/func_get_args.001.phpt | <span class="state-ok">OK</span> | FuncArgSpec |
-| lang/func_get_args.002.phpt | <span class="state-ok">OK</span> | FuncArgSpec |
-| lang/func_get_args.003.phpt | <span class="state-ok">OK</span> | FuncArgSpec |
-| lang/func_get_args.004.phpt | <span class="state-ok">OK</span> | FuncArgSpec |
-| lang/func_num_args.001.phpt | <span class="state-ok">OK</span> | FuncArgSpec |
-| lang/func_num_args.002.phpt | <span class="state-ok">OK</span> | FuncArgSpec |
-| lang/func_num_args.003.phpt | <span class="state-ok">OK</span> | FuncArgSpec |
-| lang/func_num_args.004.phpt | <span class="state-ok">OK</span> | FuncArgSpec |
-| lang/include_variation1.phpt | <span class="state-ok">OK</span> | IncludeSpec |
-| lang/include_variation2.phpt | <span class="state-ok">OK</span> | IncludeSpec |
-| lang/include_variation3.phpt | <span class="state-ok">OK</span> | IncludeSpec |
-| lang/passByReference_001.phpt | <span class="state-ok">OK</span> | PassByReferenceSpec |
-| lang/passByReference_002.phpt | <span class="state-ok">OK</span> | PassByReferenceSpec |
-| lang/passByReference_003.phpt | <span class="state-ok">OK</span> | PassByReferenceSpec |
-| lang/passByReference_004.phpt | <span class="state-ok">OK</span> | PassByReferenceSpec |
-| lang/passByReference_005.phpt | <span class="state-ok">OK</span> | PassByReferenceSpec |
-| lang/passByReference_006.phpt | <span class="state-ok">OK</span> | PassByReferenceSpec |
-| lang/passByReference_007.phpt | <span class="state-ok">OK</span> | PassByReferenceSpec |
-| lang/passByReference_008.phpt | <span class="state-ok">OK</span> | PassByReferenceSpec |
-| lang/passByReference_009.phpt | <span class="state-ok">OK</span> | PassByReferenceSpec |
-| lang/passByReference_010.phpt | <span class="state-ok">OK</span> | PassByReferenceSpec |
-| lang/passByReference_012.phpt | <span class="state-ok">OK</span> | PassByReferenceSpec |
-| lang/returnByReference.001.phpt | <span class="state-ok">OK</span> | ReturnByReferenceSpec |
-| lang/returnByReference.002.phpt | <span class="state-ok">OK</span> | ReturnByReferenceSpec |
-| lang/returnByReference.003.phpt | <span class="state-ok">OK</span> | ReturnByReferenceSpec |
-| lang/returnByReference.004.phpt | <span class="state-ok">OK</span> | ReturnByReferenceSpec |
-| lang/returnByReference.005.phpt | <span class="state-ok">OK</span> | ReturnByReferenceSpec |
-| lang/returnByReference.006.phpt | <span class="state-ok">OK</span> | ReturnByReferenceSpec |
-| lang/returnByReference.007.phpt | <span class="state-ok">OK</span> | ReturnByReferenceSpec |
-| lang/returnByReference.008.phpt | <span class="state-ok">OK</span> | ReturnByReferenceSpec |
-| lang/returnByReference.009.phpt | <span class="state-ok">OK</span> | ReturnByReferenceSpec |
+
+### de.leanovate.jbj.tests.classes.FuncArgSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/func_get_arg.001.phpt | <span class="state-ok">OK</span> |
+| lang/func_get_arg.002.phpt | <span class="state-ok">OK</span> |
+| lang/func_get_arg.003.phpt | <span class="state-ok">OK</span> |
+| lang/func_get_arg.004.phpt | <span class="state-ok">OK</span> |
+| lang/func_get_arg.005.phpt | <span class="state-ok">OK</span> |
+| lang/func_get_arg_variation.phpt | <span class="state-ok">OK</span> |
+| lang/func_get_args.001.phpt | <span class="state-ok">OK</span> |
+| lang/func_get_args.002.phpt | <span class="state-ok">OK</span> |
+| lang/func_get_args.003.phpt | <span class="state-ok">OK</span> |
+| lang/func_get_args.004.phpt | <span class="state-ok">OK</span> |
+| lang/func_num_args.001.phpt | <span class="state-ok">OK</span> |
+| lang/func_num_args.002.phpt | <span class="state-ok">OK</span> |
+| lang/func_num_args.003.phpt | <span class="state-ok">OK</span> |
+| lang/func_num_args.004.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.classes.IncludeSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/include_variation1.phpt | <span class="state-ok">OK</span> |
+| lang/include_variation2.phpt | <span class="state-ok">OK</span> |
+| lang/include_variation3.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.classes.PassByReferenceSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/passByReference_001.phpt | <span class="state-ok">OK</span> |
+| lang/passByReference_002.phpt | <span class="state-ok">OK</span> |
+| lang/passByReference_003.phpt | <span class="state-ok">OK</span> |
+| lang/passByReference_004.phpt | <span class="state-ok">OK</span> |
+| lang/passByReference_005.phpt | <span class="state-ok">OK</span> |
+| lang/passByReference_006.phpt | <span class="state-ok">OK</span> |
+| lang/passByReference_007.phpt | <span class="state-ok">OK</span> |
+| lang/passByReference_008.phpt | <span class="state-ok">OK</span> |
+| lang/passByReference_009.phpt | <span class="state-ok">OK</span> |
+| lang/passByReference_010.phpt | <span class="state-ok">OK</span> |
+| lang/passByReference_012.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.classes.ReturnByReferenceSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/returnByReference.001.phpt | <span class="state-ok">OK</span> |
+| lang/returnByReference.002.phpt | <span class="state-ok">OK</span> |
+| lang/returnByReference.003.phpt | <span class="state-ok">OK</span> |
+| lang/returnByReference.004.phpt | <span class="state-ok">OK</span> |
+| lang/returnByReference.005.phpt | <span class="state-ok">OK</span> |
+| lang/returnByReference.006.phpt | <span class="state-ok">OK</span> |
+| lang/returnByReference.007.phpt | <span class="state-ok">OK</span> |
+| lang/returnByReference.008.phpt | <span class="state-ok">OK</span> |
+| lang/returnByReference.009.phpt | <span class="state-ok">OK</span> |
 | lang/script_tag.phpt | <span class="state-ok">OK</span> | ScriptTagSpec |
 | lang/short_tags.001.phpt | <span class="state-ok">OK</span> | ScriptTagSpec |
 | lang/short_tags.002.phpt | <span class="state-unknown">Unknown</span> |
@@ -748,9 +832,14 @@ Package: de.leanovate.jbj.tests.lang
 | lang/string_decimals_001.phpt | <span class="state-ok">OK</span> | StringDecimalsSpec |
 | lang/this_assignment.phpt | <span class="state-unknown">Unknown</span> |
 | lang/throw_variation_001.phpt | <span class="state-unknown">Unknown</span> |
-| lang/type_hints_001.phpt | <span class="state-ok">OK</span> | TypeHintSpec |
-| lang/type_hints_002.phpt | <span class="state-ok">OK</span> | TypeHintSpec |
-| lang/type_hints_003.phpt | <span class="state-ok">OK</span> | TypeHintSpec |
+
+### de.leanovate.jbj.tests.classes.TypeHintSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/type_hints_001.phpt | <span class="state-ok">OK</span> |
+| lang/type_hints_002.phpt | <span class="state-ok">OK</span> |
+| lang/type_hints_003.phpt | <span class="state-ok">OK</span> |
 
 ## Language operators
 
