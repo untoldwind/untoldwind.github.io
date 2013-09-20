@@ -353,15 +353,25 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/interfaces_001.phpt | <span class="state-ok">OK</span> |
 | classes/interfaces_002.phpt | <span class="state-ok">OK</span> |
 | classes/interfaces_003.phpt | <span class="state-ok">OK</span> |
-| classes/iterators_001.phpt | <span class="state-unknown">Unknown</span> |
-| classes/iterators_002.phpt | <span class="state-unknown">Unknown</span> |
-| classes/iterators_003.phpt | <span class="state-unknown">Unknown</span> |
+
+### de.leanovate.jbj.tests.classes.IteratosSpec
+
+| File | State |
+|:-----|:-----:|
+| classes/iterators_001.phpt | <span class="state-ok">OK</span> |
+| classes/iterators_002.phpt | <span class="state-ok">OK</span> |
+| classes/iterators_003.phpt | <span class="state-ok">OK</span> |
 | classes/iterators_004.phpt | <span class="state-unknown">Unknown</span> |
 | classes/iterators_005.phpt | <span class="state-unknown">Unknown</span> |
 | classes/iterators_006.phpt | <span class="state-unknown">Unknown</span> |
 | classes/iterators_007.phpt | <span class="state-unknown">Unknown</span> |
 | classes/iterators_008.phpt | <span class="state-unknown">Unknown</span> |
-| classes/method_call_variation_001.phpt | <span class="state-ok">OK</span> | MethodCallSpec |
+
+### de.leanovate.jbj.tests.classes.MethodCallSpec
+
+| File | State |
+|:-----|:-----:|
+| classes/method_call_variation_001.phpt | <span class="state-ok">OK</span> |
 | classes/method_override_optional_arg_001.phpt | <span class="state-unknown">Unknown</span> |
 | classes/method_override_optional_arg_002.phpt | <span class="state-unknown">Unknown</span> |
 
@@ -643,75 +653,121 @@ Package: de.leanovate.jbj.tests.lang
 | File | State |
 |:-----|:-----:|
 | lang/bison1.phpt | <span class="state-ok">OK</span> |
-| lang/bug17115.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug18872.phpt | <span class="state-ok">OK</span> | Bug1xxxxSpec |
-| lang/bug19566.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug19943.phpt | <span class="state-ok">OK</span> | Bug1xxxxSpec |
-| lang/bug20175.phpt | <span class="state-ok">OK</span> | Bug2xxxxSpec |
-| lang/bug21094.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug21600.phpt | <span class="state-ok">OK</span> | Bug2xxxxSpec |
-| lang/bug21669.phpt | <span class="state-ok">OK</span> | Bug2xxxxSpec |
+
+### de.leanovate.jbj.tests.lang.Bug1xxxxSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/bug17115.phpt | <span class="state-ok">OK</span> |
+| lang/bug18872.phpt | <span class="state-ok">OK</span> |
+| lang/bug19566.phpt | <span class="state-ok">OK</span> |
+| lang/bug19943.phpt | <span class="state-ok">OK</span> |
+
+
+### de.leanovate.jbj.tests.lang.Bug2xxxxSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/bug20175.phpt | <span class="state-ok">OK</span> |
+| lang/bug21094.phpt | <span class="state-ok">OK</span> |
+| lang/bug21600.phpt | <span class="state-ok">OK</span> |
+| lang/bug21669.phpt | <span class="state-ok">OK</span> |
 | lang/bug21820.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug21849.phpt | <span class="state-ok">OK</span> | Bug2xxxxSpec |
-| lang/bug21961.phpt | <span class="state-ok">OK</span> | Bug2xxxxSpec |
-| lang/bug22231.phpt | <span class="state-ok">OK</span> | Bug2xxxxSpec |
-| lang/bug22510.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug22592.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug22690.phpt | <span class="state-unknown">Unknown</span> |
+| lang/bug21849.phpt | <span class="state-ok">OK</span> |
+| lang/bug21961.phpt | <span class="state-ok">OK</span> |
+| lang/bug22231.phpt | <span class="state-ok">OK</span> |
+| lang/bug22510.phpt | <span class="state-ok">OK</span> |
+| lang/bug22592.phpt | <span class="state-ok">OK</span> |
+| lang/bug22690.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.Bug23xxxSpec
+
+| File | State |
+|:-----|:-----:|
 | lang/bug23279.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug23384.phpt | <span class="state-ok">OK</span> | Bug23xxxSpec |
-| lang/bug23489.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug23524.phpt | <span class="state-ok">OK</span> | Bug23xxxSpec |
+| lang/bug23384.phpt | <span class="state-ok">OK</span> |
+| lang/bug23489.phpt | <span class="state-ok">OK</span> |
+| lang/bug23524.phpt | <span class="state-ok">OK</span> |
 | lang/bug23584.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug23624.phpt | <span class="state-unknown">Unknown</span> |
+| lang/bug23624.phpt | <span class="state-ok">OK</span> |
 | lang/bug23922.phpt | <span class="state-unknown">Unknown</span> |
+
+### de.leanovate.jbj.tests.lang.Bug24xxxSpec
+
+| File | State |
+|:-----|:-----:|
 | lang/bug24054.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug24396.phpt | <span class="state-ok">OK</span> | Bug24xxxSpec |
+| lang/bug24396.phpt | <span class="state-ok">OK</span> |
 | lang/bug24403.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug24436.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug24499.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug24573.phpt | <span class="state-unknown">Unknown</span> |
+| lang/bug24436.phpt | <span class="state-ok">OK</span> |
+| lang/bug24499.phpt | <span class="state-ok">OK</span> |
+| lang/bug24573.phpt | <span class="state-ok">OK</span> |
 | lang/bug24640.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug24652.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug24658.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug24783.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug24908.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug24926.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug24951.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug25145.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug25547.phpt | <span class="state-ok">OK</span> | Bug25xxxSpec |
-| lang/bug25652.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug25922.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug26182.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug26696.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug26866.phpt | <span class="state-unknown">Unknown</span> |
+| lang/bug24652.phpt | <span class="state-ok">OK</span> |
+| lang/bug24658.phpt | <span class="state-ok">OK</span> |
+| lang/bug24783.phpt | <span class="state-ok">OK</span> |
+| lang/bug24908.phpt | <span class="state-ok">OK</span> |
+| lang/bug24926.phpt | <span class="state-ok">OK</span> |
+| lang/bug24951.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.Bug25xxxSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/bug25145.phpt | <span class="state-ok">OK</span> |
+| lang/bug25547.phpt | <span class="state-ok">OK</span> |
+| lang/bug25652.phpt | <span class="state-ok">OK</span> |
+| lang/bug25922.phpt | <span class="state-ok">OK</span> |
+| lang/bug26182.phpt | <span class="state-ok">OK</span> |
+| lang/bug26696.phpt | <span class="state-ok">OK</span> |
+| lang/bug26866.phpt | <span class="state-ok">OK</span> |
 | lang/bug26869.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug27354.phpt | <span class="state-unknown">Unknown</span> |
+
+### de.leanovate.jbj.tests.lang.Bug27xxxSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/bug27354.phpt | <span class="state-ok">OK</span> |
 | lang/bug27439.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug27443.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug27535.phpt | <span class="state-unknown">Unknown</span> |
+| lang/bug27443.phpt | <span class="state-ok">OK</span> |
+| lang/bug27535.phpt | <span class="state-ok">OK</span> |
 | lang/bug28213.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug28800.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug29566.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug29893.phpt | <span class="state-unknown">Unknown</span> |
+| lang/bug28800.phpt | <span class="state-ok">OK</span> |
+| lang/bug29566.phpt | <span class="state-ok">OK</span> |
+| lang/bug29893.phpt | <span class="state-ok">OK</span> |
 | lang/bug29944.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug30578.phpt | <span class="state-unknown">Unknown</span> |
+
+### de.leanovate.jbj.tests.lang.Bug3xxxxSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/bug30578.phpt | <span class="state-ok">OK</span> |
 | lang/bug30638.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug30726.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug30862.phpt | <span class="state-unknown">Unknown</span> |
+| lang/bug30726.phpt | <span class="state-ok">OK</span> |
+| lang/bug30862.phpt | <span class="state-ok">OK</span> |
 | lang/bug32828.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug32924.phpt | <span class="state-unknown">Unknown</span> |
+| lang/bug32924.phpt | <span class="state-ok">OK</span> |
 | lang/bug35176.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug35382.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug38579.phpt | <span class="state-unknown">Unknown</span> |
+| lang/bug35382.phpt | <span class="state-ok">OK</span> |
+| lang/bug38579.phpt | <span class="state-ignore">Depends on script locator implementation</span>  |
+
+### de.leanovate.jbj.tests.lang.Bug3xxxxSpec
+
+| File | State |
+|:-----|:-----:|
 | lang/bug43958.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug44654.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug44827.phpt | <span class="state-unknown">Unknown</span> |
+| lang/bug44654.phpt | <span class="state-ok">OK</span> |
+| lang/bug44827.phpt | <span class="state-ok">OK</span> |
 | lang/bug45392.phpt | <span class="state-unknown">Unknown</span> |
-| lang/bug55754.phpt | <span class="state-unknown">Unknown</span> |
+| lang/bug55754.phpt | <span class="state-ok">OK</span> |
 | lang/bug7515.phpt | <span class="state-unknown">Unknown</span> |
-| lang/catchable_error_001.phpt | <span class="state-ok">OK</span> | CatchableErrorSpec |
-| lang/catchable_error_002.phpt | <span class="state-ok">OK</span> | CatchableErrorSpec |
+
+### de.leanovate.jbj.tests.lang.CatchableErrorSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/catchable_error_001.phpt | <span class="state-ok">OK</span> |
+| lang/catchable_error_002.phpt | <span class="state-ok">OK</span> |
 | lang/comments.phpt | <span class="state-ok">OK</span> | CommentSpec |
 | lang/comments2.phpt | <span class="state-ok">OK</span> | CommentSpec |
 | lang/compare_objects_basic1.phpt | <span class="state-ok">OK</span> | CompareObjectSpec |
@@ -733,17 +789,28 @@ Package: de.leanovate.jbj.tests.lang
 | lang/engine_assignExecutionOrder_008.phpt | <span class="state-ok">OK</span> |
 | lang/engine_assignExecutionOrder_009.phpt | <span class="state-ok">OK</span> |
 | lang/error_2_exception_001.phpt | <span class="state-unknown">Unknown</span> |
+
+### de.leanovate.jbj.tests.lang.ExecutionOrderSpec
+
+| File | State |
+|:-----|:-----:|
 | lang/execution_order.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreach_with_object_001.phpt | <span class="state-ok">OK</span> | ForeachSpec |
-| lang/foreach_with_references_001.phpt | <span class="state-ok">OK</span> | ForeachSpec |
-| lang/foreachLoop.001.phpt | <span class="state-ok">OK</span> | ForeachSpec |
+
+
+### de.leanovate.jbj.tests.lang.ForeachSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/foreach_with_object_001.phpt | <span class="state-ok">OK</span> |
+| lang/foreach_with_references_001.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoop.001.phpt | <span class="state-ok">OK</span> |
 | lang/foreachLoop.002.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoop.003.phpt | <span class="state-ok">OK</span> | ForeachSpec |
-| lang/foreachLoop.004.phpt | <span class="state-ok">OK</span> | ForeachSpec |
-| lang/foreachLoop.005.phpt | <span class="state-ok">OK</span> | ForeachSpec |
-| lang/foreachLoop.006.phpt | <span class="state-ok">OK</span> | ForeachSpec |
+| lang/foreachLoop.003.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoop.004.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoop.005.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoop.006.phpt | <span class="state-ok">OK</span> |
 | lang/foreachLoop.009.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoop.010.phpt | <span class="state-ok">OK</span> | ForeachSpec |
+| lang/foreachLoop.010.phpt | <span class="state-ok">OK</span> |
 | lang/foreachLoop.011.phpt | <span class="state-unknown">Unknown</span> |
 | lang/foreachLoop.012.phpt | <span class="state-unknown">Unknown</span> |
 | lang/foreachLoop.013.phpt | <span class="state-unknown">Unknown</span> |
@@ -820,15 +887,26 @@ Package: de.leanovate.jbj.tests.lang
 | lang/returnByReference.007.phpt | <span class="state-ok">OK</span> |
 | lang/returnByReference.008.phpt | <span class="state-ok">OK</span> |
 | lang/returnByReference.009.phpt | <span class="state-ok">OK</span> |
-| lang/script_tag.phpt | <span class="state-ok">OK</span> | ScriptTagSpec |
-| lang/short_tags.001.phpt | <span class="state-ok">OK</span> | ScriptTagSpec |
-| lang/short_tags.002.phpt | <span class="state-unknown">Unknown</span> |
-| lang/short_tags.003.phpt | <span class="state-unknown">Unknown</span> |
-| lang/short_tags.004.phpt | <span class="state-unknown">Unknown</span> |
-| lang/static_basic_001.phpt | <span class="state-ok">OK</span> | StaticSpec |
-| lang/static_basic_002.phpt | <span class="state-ok">OK</span> | StaticSpec |
-| lang/static_variation_001.phpt | <span class="state-ok">OK</span> | StaticSpec |
-| lang/static_variation_002.phpt | <span class="state-ok">OK</span> | StaticSpec |
+
+### de.leanovate.jbj.tests.classes.ScriptTagSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/script_tag.phpt | <span class="state-ok">OK</span> |
+| lang/short_tags.001.phpt | <span class="state-ok">OK</span> |
+| lang/short_tags.002.phpt | <span class="state-ok">OK</span> |
+| lang/short_tags.003.phpt | <span class="state-ok">OK</span> |
+| lang/short_tags.004.phpt | <span class="state-ok">OK</span> |
+
+
+### de.leanovate.jbj.tests.classes.StaticSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/static_basic_001.phpt | <span class="state-ok">OK</span> |
+| lang/static_basic_002.phpt | <span class="state-ok">OK</span> |
+| lang/static_variation_001.phpt | <span class="state-ok">OK</span> |
+| lang/static_variation_002.phpt | <span class="state-ok">OK</span> |
 | lang/string_decimals_001.phpt | <span class="state-ok">OK</span> | StringDecimalsSpec |
 | lang/this_assignment.phpt | <span class="state-unknown">Unknown</span> |
 | lang/throw_variation_001.phpt | <span class="state-unknown">Unknown</span> |
@@ -907,34 +985,49 @@ Package: de.leanovate.jbj.tests.lang.operators
 
 ## Output
 
-| File | State | Spec |
-|:-----|:-----:|:-----|
+### de.leanovate.jbj.tests.output.BugSpec
+
+| File | State |
+|:-----|:-----:|
 | output/bug46897.phpt | <span class="state-unknown">Unknown</span> |
 | output/bug60282.phpt | <span class="state-unknown">Unknown</span> |
-| output/bug60321.phpt | <span class="state-unknown">Unknown</span> |
-| output/bug60322.phpt | <span class="state-unknown">Unknown</span> |
+| output/bug60321.phpt | <span class="state-ok">OK</span> |
+| output/bug60322.phpt | <span class="state-ok">OK</span> |
 | output/bug60768.phpt | <span class="state-unknown">Unknown</span> |
+
+| File | State | Spec |
+|:-----|:-----:|:-----|
 | output/flush_basic_001.phpt | <span class="state-unknown">Unknown</span> |
 | output/flush_error_001.phpt | <span class="state-unknown">Unknown</span> |
-| output/ob_001.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
-| output/ob_002.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
-| output/ob_003.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
-| output/ob_004.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
-| output/ob_005.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
-| output/ob_006.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
-| output/ob_007.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
-| output/ob_008.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
-| output/ob_009.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
-| output/ob_010.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
-| output/ob_011.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
-| output/ob_012.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
-| output/ob_013.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
+
+### de.leanovate.jbj.tests.output.OutputBufferSpec
+
+| File | State |
+|:-----|:-----:|
+| output/ob_001.phpt | <span class="state-ok">OK</span> |
+| output/ob_002.phpt | <span class="state-ok">OK</span> |
+| output/ob_003.phpt | <span class="state-ok">OK</span> |
+| output/ob_004.phpt | <span class="state-ok">OK</span> |
+| output/ob_005.phpt | <span class="state-ok">OK</span> |
+| output/ob_006.phpt | <span class="state-ok">OK</span> |
+| output/ob_007.phpt | <span class="state-ok">OK</span> |
+| output/ob_008.phpt | <span class="state-ok">OK</span> |
+| output/ob_009.phpt | <span class="state-ok">OK</span> |
+| output/ob_010.phpt | <span class="state-ok">OK</span> |
+| output/ob_011.phpt | <span class="state-ok">OK</span> |
+| output/ob_012.phpt | <span class="state-ok">OK</span> |
+| output/ob_013.phpt | <span class="state-ok">OK</span> |
 | output/ob_014.phpt | <span class="state-unknown">Unknown</span> |
 | output/ob_015.phpt | <span class="state-unknown">Unknown</span> |
-| output/ob_017.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
+| output/ob_017.phpt | <span class="state-ok">OK</span> |
 | output/ob_018.phpt | <span class="state-unknown">Unknown</span> |
-| output/ob_020.phpt | <span class="state-ok">OK</span> | OutputBufferSpec |
-| output/ob_clean_basic_001.phpt | <span class="state-ok">OK</span> | OutputBufferCleanSpec |
+| output/ob_020.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.output.OutputBufferCleanSpec
+
+| File | State |
+|:-----|:-----:|
+| output/ob_clean_basic_001.phpt | <span class="state-ok">OK</span> |
 | output/ob_clean_error_001.phpt | <span class="state-unknown">Unknown</span> |
 | output/ob_end_clean_basic_001.phpt | <span class="state-unknown">Unknown</span> |
 | output/ob_end_clean_error_001.phpt | <span class="state-unknown">Unknown</span> |
@@ -942,8 +1035,8 @@ Package: de.leanovate.jbj.tests.lang.operators
 | output/ob_end_flush_error_001.phpt | <span class="state-unknown">Unknown</span> |
 | output/ob_flush_basic_001.phpt | <span class="state-unknown">Unknown</span> |
 | output/ob_flush_error_001.phpt | <span class="state-unknown">Unknown</span> |
-| output/ob_get_clean_basic_001.phpt | <span class="state-ok">OK</span> | OutputBufferCleanSpec |
-| output/ob_get_clean_basic_002.phpt | <span class="state-ok">OK</span> | OutputBufferCleanSpec |
+| output/ob_get_clean_basic_001.phpt | <span class="state-ok">OK</span> |
+| output/ob_get_clean_basic_002.phpt | <span class="state-ok">OK</span> |
 | output/ob_get_clean_error_001.phpt | <span class="state-unknown">Unknown</span> |
 | output/ob_get_contents_basic_001.phpt | <span class="state-unknown">Unknown</span> |
 | output/ob_get_contents_error_001.phpt | <span class="state-unknown">Unknown</span> |
@@ -956,10 +1049,15 @@ Package: de.leanovate.jbj.tests.lang.operators
 | output/ob_implicit_flush_basic_002.phpt | <span class="state-unknown">Unknown</span> |
 | output/ob_implicit_flush_error_001.phpt | <span class="state-unknown">Unknown</span> |
 | output/ob_implicit_flush_variation_001.phpt | <span class="state-unknown">Unknown</span> |
-| output/ob_start_basic_001.phpt | <span class="state-ok">OK</span> | OutputBufferStartSpec |
+
+### de.leanovate.jbj.tests.output.OutputBufferStartSpec
+
+| File | State |
+|:-----|:-----:|
+| output/ob_start_basic_001.phpt | <span class="state-ok">OK</span> |
 | output/ob_start_basic_002.phpt | <span class="state-unknown">Unknown</span> |
-| output/ob_start_basic_003.phpt | <span class="state-ok">OK</span> | OutputBufferStartSpec |
-| output/ob_start_basic_004.phpt | <span class="state-ok">OK</span> | OutputBufferStartSpec |
+| output/ob_start_basic_003.phpt | <span class="state-ok">OK</span> |
+| output/ob_start_basic_004.phpt | <span class="state-ok">OK</span> |
 | output/ob_start_basic_005.phpt | <span class="state-unknown">Unknown</span> |
 | output/ob_start_basic_006.phpt | <span class="state-unknown">Unknown</span> |
 | output/ob_start_basic_unerasable_001.phpt | <span class="state-unknown">Unknown</span> |
@@ -968,10 +1066,10 @@ Package: de.leanovate.jbj.tests.lang.operators
 | output/ob_start_basic_unerasable_004.phpt | <span class="state-unknown">Unknown</span> |
 | output/ob_start_basic_unerasable_005.phpt | <span class="state-unknown">Unknown</span> |
 | output/ob_start_callbacks.phpt | <span class="state-unknown">Unknown</span> |
-| output/ob_start_error_001.phpt | <span class="state-ok">OK</span> | OutputBufferStartSpec |
+| output/ob_start_error_001.phpt | <span class="state-ok">OK</span> |
 | output/ob_start_error_002.phpt | <span class="state-unknown">Unknown</span> |
-| output/ob_start_error_003.phpt | <span class="state-ok">OK</span> | OutputBufferStartSpec |
-| output/ob_start_error_004.phpt | <span class="state-ok">OK</span> | OutputBufferStartSpec |
+| output/ob_start_error_003.phpt | <span class="state-ok">OK</span> |
+| output/ob_start_error_004.phpt | <span class="state-ok">OK</span> |
 | output/ob_start_error_005.phpt | <span class="state-unknown">Unknown</span> |
 
 ## Test support tests
