@@ -363,9 +363,9 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/iterators_003.phpt | <span class="state-ok">OK</span> |
 | classes/iterators_004.phpt | <span class="state-unknown">Unknown</span> |
 | classes/iterators_005.phpt | <span class="state-unknown">Unknown</span> |
-| classes/iterators_006.phpt | <span class="state-unknown">Unknown</span> |
-| classes/iterators_007.phpt | <span class="state-unknown">Unknown</span> |
-| classes/iterators_008.phpt | <span class="state-unknown">Unknown</span> |
+| classes/iterators_006.phpt | <span class="state-ok">OK</span> |
+| classes/iterators_007.phpt | <span class="state-ok">OK</span> |
+| classes/iterators_008.phpt | <span class="state-ok">OK</span> |
 
 ### de.leanovate.jbj.tests.classes.MethodCallSpec
 
@@ -804,12 +804,12 @@ Package: de.leanovate.jbj.tests.lang
 | lang/foreach_with_object_001.phpt | <span class="state-ok">OK</span> |
 | lang/foreach_with_references_001.phpt | <span class="state-ok">OK</span> |
 | lang/foreachLoop.001.phpt | <span class="state-ok">OK</span> |
-| lang/foreachLoop.002.phpt | <span class="state-unknown">Unknown</span> |
+| lang/foreachLoop.002.phpt | <span class="state-ok">OK</span> |
 | lang/foreachLoop.003.phpt | <span class="state-ok">OK</span> |
 | lang/foreachLoop.004.phpt | <span class="state-ok">OK</span> |
 | lang/foreachLoop.005.phpt | <span class="state-ok">OK</span> |
 | lang/foreachLoop.006.phpt | <span class="state-ok">OK</span> |
-| lang/foreachLoop.009.phpt | <span class="state-unknown">Unknown</span> |
+| lang/foreachLoop.009.phpt | <span class="state-ok">OK</span> |
 | lang/foreachLoop.010.phpt | <span class="state-ok">OK</span> |
 | lang/foreachLoop.011.phpt | <span class="state-unknown">Unknown</span> |
 | lang/foreachLoop.012.phpt | <span class="state-unknown">Unknown</span> |
