@@ -11,6 +11,7 @@ githubUrl: https://github.com/untoldwind/jbj
 # Current status
 
 * [Core tests]({{ BASE_PATH }}/projects/jbj/core_tests.html)
+* [Zend tests]({{ BASE_PATH }}/projects/jbj/zend_tests.html)
 
 # CI
 

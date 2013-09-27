@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "jbj - Tests"
+title: "jbj - Core tests"
 subtitle: Core tests
-root: .
 ---
+{% include JB/setup %}
 
 # Core tests
 
@@ -354,15 +354,15 @@ Spec package: de.leanovate.jbj.tests.classes
 | classes/interfaces_002.phpt | <span class="state-ok">OK</span> |
 | classes/interfaces_003.phpt | <span class="state-ok">OK</span> |
 
-### de.leanovate.jbj.tests.classes.IteratosSpec
+### de.leanovate.jbj.tests.classes.IteratorSpec
 
 | File | State |
 |:-----|:-----:|
 | classes/iterators_001.phpt | <span class="state-ok">OK</span> |
 | classes/iterators_002.phpt | <span class="state-ok">OK</span> |
 | classes/iterators_003.phpt | <span class="state-ok">OK</span> |
-| classes/iterators_004.phpt | <span class="state-unknown">Unknown</span> |
-| classes/iterators_005.phpt | <span class="state-unknown">Unknown</span> |
+| classes/iterators_004.phpt | <span class="state-ok">OK</span> |
+| classes/iterators_005.phpt | <span class="state-ok">OK</span> |
 | classes/iterators_006.phpt | <span class="state-ok">OK</span> |
 | classes/iterators_007.phpt | <span class="state-ok">OK</span> |
 | classes/iterators_008.phpt | <span class="state-ok">OK</span> |
@@ -548,15 +548,17 @@ Spec package: de.leanovate.jbj.tests.classes
 
 Package: de.leanovate.jbj.tests.func
 
-| File | State | Spec |
-|:-----|:-----:|:-----|
-| func/001.phpt | <span class="state-ok">OK</span> | FuncSpec |
-| func/002.phpt | <span class="state-ok">OK</span> | FuncSpec |
-| func/003.phpt | <span class="state-ok">OK</span> | FuncSpec |
-| func/004.phpt | <span class="state-ok">OK</span> | FuncSpec |
-| func/005.phpt | <span class="state-ok">OK</span> | FuncSpec |
+### de.leanovate.jbj.tests.func.FuncSpec
+
+| File | State |
+|:-----|:-----:|
+| func/001.phpt | <span class="state-ok">OK</span> |
+| func/002.phpt | <span class="state-ok">OK</span> |
+| func/003.phpt | <span class="state-ok">OK</span> |
+| func/004.phpt | <span class="state-ok">OK</span> |
+| func/005.phpt | <span class="state-ok">OK</span> |
 | func/005a.phpt | <span class="state-unknown">Unknown</span> |
-| func/006.phpt | <span class="state-ok">OK</span> | FuncSpec |
+| func/006.phpt | <span class="state-ok">OK</span> |
 | func/007.phpt | <span class="state-unknown">Unknown</span> |
 | func/008.phpt | <span class="state-unknown">Unknown</span> |
 | func/009.phpt | <span class="state-unknown">Unknown</span> |
@@ -768,8 +770,14 @@ Package: de.leanovate.jbj.tests.lang
 |:-----|:-----:|
 | lang/catchable_error_001.phpt | <span class="state-ok">OK</span> |
 | lang/catchable_error_002.phpt | <span class="state-ok">OK</span> |
-| lang/comments.phpt | <span class="state-ok">OK</span> | CommentSpec |
-| lang/comments2.phpt | <span class="state-ok">OK</span> | CommentSpec |
+
+
+### de.leanovate.jbj.tests.lang.CommentSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/comments.phpt | <span class="state-ok">OK</span> |
+| lang/comments2.phpt | <span class="state-ok">OK</span> |
 | lang/compare_objects_basic1.phpt | <span class="state-ok">OK</span> | CompareObjectSpec |
 | lang/compare_objects_basic2.phpt | <span class="state-unknown">Unknown</span> |
 | lang/each_binary_safety.phpt | <span class="state-unknown">Unknown</span> |
@@ -811,25 +819,30 @@ Package: de.leanovate.jbj.tests.lang
 | lang/foreachLoop.006.phpt | <span class="state-ok">OK</span> |
 | lang/foreachLoop.009.phpt | <span class="state-ok">OK</span> |
 | lang/foreachLoop.010.phpt | <span class="state-ok">OK</span> |
-| lang/foreachLoop.011.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoop.012.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoop.013.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoop.014.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoop.015.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoop.016.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoop.017.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoopIterator.001.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoopIterator.002.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoopIteratorAggregate.001.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoopIteratorAggregate.002.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoopIteratorAggregate.003.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoopIteratorAggregate.004.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoopObjects.001.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoopObjects.002.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoopObjects.003.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoopObjects.004.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoopObjects.005.phpt | <span class="state-unknown">Unknown</span> |
-| lang/foreachLoopObjects.006.phpt | <span class="state-unknown">Unknown</span> |
+| lang/foreachLoop.011.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoop.012.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoop.013.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoop.014.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoop.015.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoop.016.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoop.017.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.ForeachObjectsSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/foreachLoopIterator.001.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoopIterator.002.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoopIteratorAggregate.001.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoopIteratorAggregate.002.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoopIteratorAggregate.003.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoopIteratorAggregate.004.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoopObjects.001.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoopObjects.002.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoopObjects.003.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoopObjects.004.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoopObjects.005.phpt | <span class="state-ok">OK</span> |
+| lang/foreachLoopObjects.006.phpt | <span class="state-ok">OK</span> |
 
 ### de.leanovate.jbj.tests.classes.FuncArgSpec
 
@@ -923,65 +936,182 @@ Package: de.leanovate.jbj.tests.lang
 
 Package: de.leanovate.jbj.tests.lang.operators
 
-| File | State | Spec |
-|:-----|:-----:|:-----|
-| lang/operators/add_basiclong_64bit.phpt | <span class="state-ok">OK</span> | AddSpec |
-| lang/operators/add_variationStr.phpt | <span class="state-ok">OK</span> | AddSpec |
-| lang/operators/bitwiseAnd_basiclong_64bit.phpt | <span class="state-ok">OK</span> | BitAndSpec |
-| lang/operators/bitwiseAnd_variationStr.phpt | <span class="state-ok">OK</span> | BitAndSpec |
-| lang/operators/bitwiseNot_basiclong_64bit.phpt | <span class="state-ok">OK</span> | BitNotSpec |
-| lang/operators/bitwiseNot_variationStr.phpt | <span class="state-ok">OK</span> | BitNotSpec |
-| lang/operators/bitwiseOr_basiclong_64bit.phpt | <span class="state-ok">OK</span> | BitOrSpec |
-| lang/operators/bitwiseOr_variationStr.phpt | <span class="state-ok">OK</span> | BitOrSpec |
-| lang/operators/bitwiseShiftLeft_basiclong_64bit.phpt | <span class="state-ok">OK</span> | BitShiftLeftSpec |
+### de.leanovate.jbj.tests.lang.operators.AddSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/add_basiclong_64bit.phpt | <span class="state-ok">OK</span> |
+| lang/operators/add_variationStr.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.BitAndSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/bitwiseAnd_basiclong_64bit.phpt | <span class="state-ok">OK</span> |
+| lang/operators/bitwiseAnd_variationStr.phpt | <span class="state-ok">OK</span> ||
+
+### de.leanovate.jbj.tests.lang.operators.BitNotSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/bitwiseNot_basiclong_64bit.phpt | <span class="state-ok">OK</span> |
+| lang/operators/bitwiseNot_variationStr.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.BitOrSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/bitwiseOr_basiclong_64bit.phpt | <span class="state-ok">OK</span> |
+| lang/operators/bitwiseOr_variationStr.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.BitShiftLeftSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/bitwiseShiftLeft_basiclong_64bit.phpt | <span class="state-ok">OK</span> |
 | lang/operators/bitwiseShiftLeft_variationStr.phpt | <span class="state-ignore">32bit only</span> |
-| lang/operators/bitwiseShiftLeft_variationStr_64bit.phpt | <span class="state-ok">OK</span> | BitShiftLeftSpec |
-| lang/operators/bitwiseShiftRight_basiclong_64bit.phpt | <span class="state-ok">OK</span> | BitShiftRightSpec |
-| lang/operators/bitwiseShiftRight_variationStr.phpt | <span class="state-ok">OK</span> | BitShiftRightSpec |
-| lang/operators/bitwiseXor_basiclong_64bit.phpt | <span class="state-ok">OK</span> | BitXorSpec |
-| lang/operators/bitwiseXor_variationStr.phpt | <span class="state-ok">OK</span> | BitXorSpec |
-| lang/operators/divide_basiclong_64bit.phpt | <span class="state-ok">OK</span> | DivSpec |
-| lang/operators/divide_variationStr.phpt | <span class="state-ok">OK</span> | DivSpec |
-| lang/operators/modulus_basiclong_64bit.phpt | <span class="state-ok">OK</span> | ModulusSpec |
-| lang/operators/modulus_variationStr.phpt | <span class="state-ok">OK</span> | ModulusSpec |
-| lang/operators/multiply_basiclong_64bit.phpt | <span class="state-ok">OK</span> | MulSpec |
-| lang/operators/multiply_variationStr.phpt | <span class="state-ok">OK</span> | MulSpec |
-| lang/operators/negate_basiclong_64bit.phpt | <span class="state-ok">OK</span> | NegateSpec |
-| lang/operators/negate_variationStr.phpt | <span class="state-ok">OK</span> | NegateSpec |
-| lang/operators/operator_equals_basic.phpt | <span class="state-ok">OK</span> | EqualsSpec |
+| lang/operators/bitwiseShiftLeft_variationStr_64bit.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.BitShiftRightSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/bitwiseShiftRight_basiclong_64bit.phpt | <span class="state-ok">OK</span> |
+| lang/operators/bitwiseShiftRight_variationStr.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.BitXorSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/bitwiseXor_basiclong_64bit.phpt | <span class="state-ok">OK</span> |
+| lang/operators/bitwiseXor_variationStr.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.DivSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/divide_basiclong_64bit.phpt | <span class="state-ok">OK</span> |
+| lang/operators/divide_variationStr.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.ModulusSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/modulus_basiclong_64bit.phpt | <span class="state-ok">OK</span> |
+| lang/operators/modulus_variationStr.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.MulSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/multiply_basiclong_64bit.phpt | <span class="state-ok">OK</span> |
+| lang/operators/multiply_variationStr.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.NegateSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/negate_basiclong_64bit.phpt | <span class="state-ok">OK</span> |
+| lang/operators/negate_variationStr.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.EqualsSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/operator_equals_basic.phpt | <span class="state-ok">OK</span> |
 | lang/operators/operator_equals_variation.phpt | <span class="state-ignore">32bit only</span> |
-| lang/operators/operator_equals_variation_64bit.phpt | <span class="state-ok">OK</span> | EqualsSpec |
-| lang/operators/operator_gt_basic.phpt | <span class="state-ok">OK</span> | GtSpec |
-| lang/operators/operator_gt_or_equal_basic.phpt | <span class="state-ok">OK</span> | GtEqualsSpec |
-| lang/operators/operator_gt_or_equal_variation.phpt | <span class="state-ignore">32bit only</span> |
-| lang/operators/operator_gt_or_equal_variation_64bit.phpt | <span class="state-ok">OK</span> | GtEqualsSpec |
+| lang/operators/operator_equals_variation_64bit.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.GtSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/operator_gt_basic.phpt | <span class="state-ok">OK</span> |
 | lang/operators/operator_gt_variation.phpt | <span class="state-ignore">32bit only</span> |
-| lang/operators/operator_gt_variation_64bit.phpt | <span class="state-ok">OK</span> | GtSpec |
-| lang/operators/operator_identical_basic.phpt | <span class="state-ok">OK</span> | IdenticalSpec |
+| lang/operators/operator_gt_variation_64bit.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.GtEqualsSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/operator_gt_or_equal_basic.phpt | <span class="state-ok">OK</span> |
+| lang/operators/operator_gt_or_equal_variation.phpt | <span class="state-ignore">32bit only</span> |
+| lang/operators/operator_gt_or_equal_variation_64bit.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.IdenticalSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/operator_identical_basic.phpt | <span class="state-ok">OK</span> |
 | lang/operators/operator_identical_variation.phpt | <span class="state-ignore">32bit only</span> |
-| lang/operators/operator_identical_variation_64bit.phpt | <span class="state-ok">OK</span> | IdenticalSpec |
-| lang/operators/operator_lt_basic.phpt | <span class="state-ok">OK</span> | LtSpec |
-| lang/operators/operator_lt_or_equal_basic.phpt | <span class="state-ok">OK</span> | LtEqualSpec |
-| lang/operators/operator_lt_or_equal_variation.phpt | <span class="state-ignore">32bit only</span> |
-| lang/operators/operator_lt_or_equal_variation_64bit.phpt | <span class="state-ok">OK</span> | LtEqualSpec |
+| lang/operators/operator_identical_variation_64bit.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.LtSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/operator_lt_basic.phpt | <span class="state-ok">OK</span> |
 | lang/operators/operator_lt_variation.phpt | <span class="state-ignore">32bit only</span> |
-| lang/operators/operator_lt_variation_64bit.phpt | <span class="state-ok">OK</span> | LtSpec |
-| lang/operators/operator_notequals_basic.phpt | <span class="state-ok">OK</span> | NotEqualSpec |
+| lang/operators/operator_lt_variation_64bit.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.LtEqualSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/operator_lt_or_equal_basic.phpt | <span class="state-ok">OK</span> |
+| lang/operators/operator_lt_or_equal_variation.phpt | <span class="state-ignore">32bit only</span> |
+| lang/operators/operator_lt_or_equal_variation_64bit.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.NotEqualSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/operator_notequals_basic.phpt | <span class="state-ok">OK</span> |
 | lang/operators/operator_notequals_variation.phpt | <span class="state-ignore">32bit only</span> |
-| lang/operators/operator_notequals_variation_64bit.phpt | <span class="state-ok">OK</span> | NotEqualSpec |
-| lang/operators/operator_notidentical_basic.phpt | <span class="state-ok">OK</span> | NotIdenticalSpec |
+| lang/operators/operator_notequals_variation_64bit.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.NotIdenticalSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/operator_notidentical_basic.phpt | <span class="state-ok">OK</span> |
 | lang/operators/operator_notidentical_variation.phpt | <span class="state-ignore">32bit only</span> |
-| lang/operators/operator_notidentical_variation_64bit.phpt | <span class="state-ok">OK</span> | NotIdenticalSpec |
-| lang/operators/postdec_basiclong_64bit.phpt | <span class="state-ok">OK</span> | PostDecrSpec |
-| lang/operators/postdec_variationStr.phpt | <span class="state-ok">OK</span> | PostDecrSpec |
-| lang/operators/postinc_basiclong_64bit.phpt | <span class="state-ok">OK</span> | PostIncrSpec |
-| lang/operators/postinc_variationStr.phpt | <span class="state-ok">OK</span> | PostIncrSpec |
-| lang/operators/predec_basiclong_64bit.phpt | <span class="state-ok">OK</span> | PreDecrSpec |
-| lang/operators/predec_variationStr.phpt | <span class="state-ok">OK</span> | PreDecrSpec |
-| lang/operators/preinc_basiclong_64bit.phpt | <span class="state-ok">OK</span> | PreIncrSpec |
-| lang/operators/preinc_variationStr.phpt | <span class="state-ok">OK</span> | PreIncrSpec |
-| lang/operators/subtract_basiclong_64bit.phpt | <span class="state-ok">OK</span> | SubSpec |
-| lang/operators/subtract_variationStr.phpt | <span class="state-ok">OK</span> | SubSpec |
+| lang/operators/operator_notidentical_variation_64bit.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.PostDecrSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/postdec_basiclong_64bit.phpt | <span class="state-ok">OK</span> |
+| lang/operators/postdec_variationStr.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.PostIncrSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/postinc_basiclong_64bit.phpt | <span class="state-ok">OK</span> |
+| lang/operators/postinc_variationStr.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.PreDecrSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/predec_basiclong_64bit.phpt | <span class="state-ok">OK</span> |
+| lang/operators/predec_variationStr.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.PreIncrSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/preinc_basiclong_64bit.phpt | <span class="state-ok">OK</span> |
+| lang/operators/preinc_variationStr.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.tests.lang.operators.SubSpec
+
+| File | State |
+|:-----|:-----:|
+| lang/operators/subtract_basiclong_64bit.phpt | <span class="state-ok">OK</span> |
+| lang/operators/subtract_variationStr.phpt | <span class="state-ok">OK</span> |
 
 ## Output
 
