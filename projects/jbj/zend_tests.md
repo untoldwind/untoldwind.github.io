@@ -47,31 +47,46 @@ subtitle: Core tests
 | Zend/tests/ns_022.phpt | <span class="state-ok">OK</span> |
 | Zend/tests/ns_023.phpt | <span class="state-ok">OK</span> |
 | Zend/tests/ns_024.phpt | <span class="state-ok">OK</span> |
-| Zend/tests/ns_025.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_026.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_027.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_028.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_029.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_030.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_031.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_032.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_033.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_034.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_035.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_036.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_037.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_038.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_039.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_040.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_041.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_042.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_043.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_044.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_045.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_046.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_047.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_048.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/ns_049.phpt | <span class="state-unknown">Unknown</span> |
+| Zend/tests/ns_025.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_026.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_027.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_028.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_029.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.core.tests.zend.Namespace4Spec
+
+| File | State |
+|:-----|:-----:|
+| Zend/tests/ns_030.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_031.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_032.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_033.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_034.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_035.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_036.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_037.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_038.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_039.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.core.tests.zend.Namespace5Spec
+
+| File | State |
+|:-----|:-----:|
+| Zend/tests/ns_040.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_041.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_042.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_043.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_044.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_045.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_046.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_047.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_048.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/ns_049.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.core.tests.zend.Namespace6Spec
+
+| File | State |
+|:-----|:-----:|
 | Zend/tests/ns_050.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/ns_051.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/ns_052.phpt | <span class="state-unknown">Unknown</span> |
