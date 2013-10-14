@@ -155,3 +155,18 @@ th {
   padding: 3px 10px 3px 10px;
   border: 2px solid #ffffff;
 }
+#markdown-toc {
+  display: block;
+  float: right;
+  border: 1px solid black;
+  font-size: 60%;
+  padding: 2px;
+}
+#markdown-toc ul {
+  line-height: 1em;
+  margin: 0;
+}
+#markdown-toc li {
+  list-style-type: none;
+  margin: 0;
+}

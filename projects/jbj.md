@@ -10,8 +10,33 @@ githubUrl: https://github.com/untoldwind/jbj
 
 # Current status
 
-* [Core tests]({{ BASE_PATH }}/projects/jbj/core_tests.html)
-* [Zend tests]({{ BASE_PATH }}/projects/jbj/zend_tests.html)
+## [Core tests]({{ BASE_PATH }}/projects/jbj/core_tests.html)
+
+<table style="width: 100%; height: 20px;">
+	<tr>
+		<td width="72%" style="background: green;"></td>
+		<td width="28%"></td>
+	</tr>
+</table>
+
+* Total: 765
+* Ok: 544
+* Ignore (for various reasons): 11
+* Unknown (not yet implemented): 210
+
+## [Zend tests]({{ BASE_PATH }}/projects/jbj/zend_tests.html)
+
+<table style="width: 100%; height: 20px;">
+	<tr>
+		<td width="11%" style="background: green;"></td>
+		<td width="89%"></td>
+	</tr>
+</table>
+
+* Total: 1414
+* Ok: 162
+* Ignore (for various reasons): 1
+* Unknown (not yet implemented): 1251
 
 # CI
 

@@ -5,6 +5,9 @@ subtitle: Core tests
 ---
 {% include JB/setup %}
 
+* This will become a table of contents (this text will be scraped).
+{:toc}
+
 # Core tests
 
 This is the current state of the [php-src/tests](https://github.com/php/php-src/tree/5.5/tests)
