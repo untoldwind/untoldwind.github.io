@@ -66,10 +66,10 @@ subtitle: Core tests
 | Zend/tests/closure_033.phpt | <span class="state-ok">OK</span> |
 | Zend/tests/closure_034.phpt | <span class="state-ok">OK</span> |
 | Zend/tests/closure_035.phpt | <span class="state-ok">OK</span> |
-| Zend/tests/closure_036.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/closure_037.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/closure_038.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/closure_039.phpt | <span class="state-unknown">Unknown</span> |
+| Zend/tests/closure_036.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/closure_037.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/closure_038.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/closure_039.phpt | <span class="state-ok">OK</span> |
 | Zend/tests/closure_040.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/closure_041.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/closure_042.phpt | <span class="state-unknown">Unknown</span> |
@@ -1344,7 +1344,6 @@ subtitle: Core tests
 | Zend/tests/not_002.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/object-null.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/object_handlers.phpt | <span class="state-unknown">Unknown</span> |
-
 | Zend/tests/oct_overflow_32bit.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/offset_array.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/offset_assign.phpt | <span class="state-unknown">Unknown</span> |
