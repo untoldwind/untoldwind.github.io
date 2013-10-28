@@ -28,15 +28,15 @@ githubUrl: https://github.com/untoldwind/jbj
 
 <table style="width: 100%; height: 20px;">
 	<tr>
-		<td width="11%" style="background: green;"></td>
-		<td width="89%"></td>
+		<td width="16%" style="background: green;"></td>
+		<td width="84%"></td>
 	</tr>
 </table>
 
 * Total: 1414
-* Ok: 162
+* Ok: 237
 * Ignore (for various reasons): 1
-* Unknown (not yet implemented): 1251
+* Unknown (not yet implemented): 1176
 
 # CI
 
