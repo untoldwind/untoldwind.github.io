@@ -18,10 +18,10 @@ subtitle: Core tests
 |:-----|:-----:|
 | Zend/tests/access_modifiers_001.phpt | <span class="state-ok">OK</span> |
 | Zend/tests/access_modifiers_002.phpt | <span class="state-ok">OK</span> |
-| Zend/tests/access_modifiers_003.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/access_modifiers_004.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/access_modifiers_005.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/access_modifiers_006.phpt | <span class="state-unknown">Unknown</span> |
+| Zend/tests/access_modifiers_003.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/access_modifiers_004.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/access_modifiers_005.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/access_modifiers_006.phpt | <span class="state-ok">OK</span> |
 | Zend/tests/access_modifiers_007.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/access_modifiers_008.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/access_modifiers_009.phpt | <span class="state-unknown">Unknown</span> |
