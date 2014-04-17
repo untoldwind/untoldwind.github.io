@@ -1278,17 +1278,24 @@ Package: ???
 
 ## Strings
 
+### de.leanovate.jbj.core.tests.string.StringSpec
+
 | File | State | Spec |
 |:-----|:-----:|:-----|
-| strings/001.phpt | <span class="state-unknown">Unknown</span> |
+| strings/001.phpt | <span class="state-ok">OK</span> |
 | strings/002.phpt | <span class="state-unknown">Unknown</span> |
 | strings/004.phpt | <span class="state-unknown">Unknown</span> |
 | strings/bug22592.phpt | <span class="state-unknown">Unknown</span> |
 | strings/bug26703.phpt | <span class="state-unknown">Unknown</span> |
-| strings/offsets_chaining_1.phpt | <span class="state-unknown">Unknown</span> |
-| strings/offsets_chaining_2.phpt | <span class="state-unknown">Unknown</span> |
-| strings/offsets_chaining_3.phpt | <span class="state-unknown">Unknown</span> |
-| strings/offsets_chaining_4.phpt | <span class="state-unknown">Unknown</span> |
+
+### de.leanovate.jbj.core.tests.string.OffsetsSpec
+
+| File | State | Spec |
+|:-----|:-----:|:-----|
+| strings/offsets_chaining_1.phpt | <span class="state-ok">OK</span> |
+| strings/offsets_chaining_2.phpt | <span class="state-ok">OK</span> |
+| strings/offsets_chaining_3.phpt | <span class="state-ok">OK</span> |
+| strings/offsets_chaining_4.phpt | <span class="state-ok">OK</span> |
 | strings/offsets_chaining_5.phpt | <span class="state-unknown">Unknown</span> |
 | strings/offsets_general.phpt | <span class="state-unknown">Unknown</span> |
 

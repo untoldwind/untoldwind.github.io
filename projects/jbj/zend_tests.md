@@ -31,6 +31,18 @@ subtitle: Core tests
 
 ## Basic
 
+### de.leanovate.jbj.core.tests.zend.AddSpec
+
+| File | State |
+|:-----|:-----:|
+| Zend/tests/add_001.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/add_002.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/add_003.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/add_004.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/add_005.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/add_006.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/add_007.phpt | <span class="state-ok">OK</span> |
+
 ### de.leanovate.jbj.core.tests.zend.Basic1Spec
 
 | File | State |
@@ -56,7 +68,7 @@ subtitle: Core tests
 | Zend/tests/014.phpt | <span class="state-ok">OK</span> |
 | Zend/tests/015.phpt | <span class="state-ok">OK</span> |
 | Zend/tests/016.phpt | <span class="state-ok">OK</span> |
-| Zend/tests/017.phpt | <span class="state-unknown">Unknown</span> |
+| Zend/tests/017.phpt | <span class="state-ok">OK</span> |
 | Zend/tests/018.phpt | <span class="state-ok">OK</span> |
 | Zend/tests/019.phpt | <span class="state-unknown">Unknown</span> |
 
@@ -149,6 +161,13 @@ subtitle: Core tests
 | Zend/tests/closure_037.phpt | <span class="state-ok">OK</span> |
 | Zend/tests/closure_038.phpt | <span class="state-ok">OK</span> |
 | Zend/tests/closure_039.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.core.tests.zend.DivSpec
+
+| File | State |
+|:-----|:-----:|
+| Zend/tests/div_001.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/div_002.phpt | <span class="state-ok">OK</span> |
 
 ### de.leanovate.jbj.core.tests.zend.Closure5Spec
 
@@ -410,18 +429,59 @@ subtitle: Core tests
 | Zend/tests/objects_031.phpt | <span class="state-ok">OK</span> |
 | Zend/tests/objects_032.phpt | <span class="state-ok">OK</span> |
 
+### de.leanovate.jbj.core.tests.zend.SubSpec
+
+| File | State |
+|:-----|:-----:|
+| Zend/tests/shift_001.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/shift_002.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.core.tests.zend.SubSpec
+
+| File | State |
+|:-----|:-----:|
+| Zend/tests/sub_001.phpt | <span class="state-ok">OK</span> |
+
+### de.leanovate.jbj.core.tests.zend.TryCatchFinallySpec
+
+| File | State |
+|:-----|:-----:|
+| Zend/tests/try_catch_finally_001.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/try_catch_finally_002.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/try_catch_finally_003.phpt | <span class="state-unknown">Unknown</span> |
+| Zend/tests/try_catch_finally_004.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/try_catch_finally_005.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/try_catch_finally_006.phpt | <span class="state-unknown">Unknown</span> |
+| Zend/tests/try_catch_finally_007.phpt | <span class="state-unknown">Unknown</span> |
+
+### de.leanovate.jbj.core.tests.zend.TryFinallySpec
+
+| File | State |
+|:-----|:-----:|
+| Zend/tests/try_finally_001.phpt | <span class="state-unknown">Unknown</span> |
+| Zend/tests/try_finally_002.phpt | <span class="state-unknown">Unknown</span> |
+| Zend/tests/try_finally_003.phpt | <span class="state-unknown">Unknown</span> |
+| Zend/tests/try_finally_004.phpt | <span class="state-unknown">Unknown</span> |
+| Zend/tests/try_finally_005.phpt | <span class="state-unknown">Unknown</span> |
+| Zend/tests/try_finally_006.phpt | <span class="state-unknown">Unknown</span> |
+| Zend/tests/try_finally_007.phpt | <span class="state-unknown">Unknown</span> |
+| Zend/tests/try_finally_008.phpt | <span class="state-unknown">Unknown</span> |
+| Zend/tests/try_finally_009.phpt | <span class="state-unknown">Unknown</span> |
+| Zend/tests/try_finally_010.phpt | <span class="state-unknown">Unknown</span> |
+
+### de.leanovate.jbj.core.tests.zend.XorSpec
+
+| File | State |
+|:-----|:-----:|
+| Zend/tests/xor_001.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/xor_002.phpt | <span class="state-ok">OK</span> |
+| Zend/tests/xor_003.phpt | <span class="state-ok">OK</span> |
+
 ## Not implemented yet
 
 | File | State |
 |:-----|:-----:|
 | Zend/tests/abstract-static.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/add_001.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/add_002.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/add_003.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/add_004.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/add_005.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/add_006.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/add_007.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/and_001.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/anonymous_func_001.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/anonymous_func_002.phpt | <span class="state-unknown">Unknown</span> |
@@ -1048,8 +1108,6 @@ subtitle: Core tests
 | Zend/tests/dereference_012.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/dereference_013.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/dereference_014.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/div_001.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/div_002.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/double_to_string.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/double_to_string_64bit.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/dtor_scope.phpt | <span class="state-unknown">Unknown</span> |
@@ -1409,13 +1467,10 @@ subtitle: Core tests
 | Zend/tests/settype_object.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/settype_resource.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/settype_string.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/shift_001.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/shift_002.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/str_offset_001.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/str_offset_002.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/strict_001.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/strict_002.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/sub_001.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/trait_exists_001.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/trait_exists_002.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/trait_exists_003.phpt | <span class="state-unknown">Unknown</span> |
@@ -1537,23 +1592,6 @@ subtitle: Core tests
 | Zend/tests/traits/static_get_called_class.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/traits/trait_constant_001.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/traits/trait_constant_002.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_catch_finally_001.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_catch_finally_002.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_catch_finally_003.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_catch_finally_004.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_catch_finally_005.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_catch_finally_006.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_catch_finally_007.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_finally_001.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_finally_002.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_finally_003.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_finally_004.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_finally_005.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_finally_006.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_finally_007.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_finally_008.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_finally_009.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/try_finally_010.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/unexpected_ref_bug.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/unset_cv01.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/unset_cv02.phpt | <span class="state-unknown">Unknown</span> |
@@ -1567,8 +1605,5 @@ subtitle: Core tests
 | Zend/tests/unset_cv10.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/unset_cv11.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/unset_cv12.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/xor_001.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/xor_002.phpt | <span class="state-unknown">Unknown</span> |
-| Zend/tests/xor_003.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/zend_operators.phpt | <span class="state-unknown">Unknown</span> |
 | Zend/tests/zend_strtod.phpt | <span class="state-unknown">Unknown</span> |
