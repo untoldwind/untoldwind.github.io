@@ -1,7 +1,7 @@
 ---
 layout: page
-title: untoldwind projects
-tagline: github projects
+title: untoldwind's projects
+tagline: mostly on github
 ---
 {% include JB/setup %}
 
