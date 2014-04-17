@@ -15,8 +15,7 @@ tagline: github projects
 
 # Projects of interest
 
+* [toehold]({{ BASE_PATH }}projects/toehold.html)
 * [jbj]({{ BASE_PATH }}projects/jbj.html)
 * [alfred2-layout]({{ BASE_PATH }}projects/alfred2-layout.html)
 * [durchlauf]({{ BASE_PATH }}projects/durchlauf.html)
-
-
