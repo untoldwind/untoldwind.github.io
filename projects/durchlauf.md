@@ -1,8 +1,8 @@
 ---
 layout: page
-title: durchlauf project
+title: durchlauf
 tagline: Durchlauferhitzer in play2
-group: navigation
+group: prime-navigation
 category: durchlauf
 githubUrl: https://github.com/untoldwind/durchlauf
 ---

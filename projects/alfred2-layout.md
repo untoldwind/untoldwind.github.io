@@ -1,8 +1,8 @@
 ---
 layout: page
-title: alfred2-layout project
+title: alfred2-layout
 tagline: Simple layout workflow for Alfred 2
-group: navigation
+group: prime-navigation
 category: alfred2-layout
 githubUrl: https://github.com/untoldwind/alfred2-layout
 ---
